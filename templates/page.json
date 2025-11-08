@@ -11,13 +11,126 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "rich_text_RTBaJb": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_WFWxAn": {
+          "type": "heading",
+          "settings": {
+            "heading": "رحلة من الشغف إلى التميز",
+            "heading_size": "h1"
+          }
+        },
+        "text_6xqkpF": {
+          "type": "text",
+          "settings": {
+            "text": "<p>منذ تأسيسنا، كنا ملتزمين بتقديم أفضل منتجات المناشف والأردية لعملائنا في جميع أنحاء المملكة العربية السعودية.<br/>  بدأت رحلتنا من حلم بسيط: توفير منتجات عالية الجودة تجمع بين الراحة والفخامة والأناقة. نحن نؤمن بأن كل تفصيلة <br/> صغيرة تصنع الفرق. لهذا السبب، نختار بعناية أجود أنواع القطن الطبيعي ونستخدم أحدث تقنيات التصنيع لضمان حصولك <br/> على منتجات تدوم طويلاً وتوفر لك أقصى درجات الراحة. اليوم، نفخر بأن نكون الخيار الأول للعائلات السعودية التي <br/> تبحث عن الجودة والأصالة في منتجات المنزل.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_WFWxAn",
+        "text_6xqkpF"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "image_with_text_KVfLQB": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_B6YqBE": {
+          "type": "heading",
+          "settings": {
+            "heading": "نلتزم بالتميز في كل ما نقدمه",
+            "heading_size": "h1"
+          }
+        },
+        "text_7kXr6N": {
+          "type": "text",
+          "settings": {
+            "text": "<p>مهمتنا هي إثراء حياتك اليومية من خلال منتجات تجمع بين الجودة العالية والتصميم العصري والراحة الفائقة. نسعى <br/> لأن نكون جزءاً من لحظاتك الخاصة والمميزة. نختار فقط أفضل المواد الخام ونطبق أعلى معايير الجودة في كل مرحلة من <br/> مراحل الإنتاج. نواكب أحدث الاتجاهات العالمية ونطور منتجاتنا باستمرار لتلبية احتياجاتكم المتغيرة. سعادتكم هي <br/> نجاحنا، لذلك نستمع لآرائكم ونعمل على تحسين خدماتنا بشكل مستمر. كما نلتزم بممارسات صديقة للبيئة ونستخدم مواد <br/>  طبيعية قابلة للتحلل.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_B6YqBE",
+        "text_7kXr6N"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/558085397_1408137787986533_6331988564115786581_n_f02e9e19-1369-40fe-8081-1b3c819c7131.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_GD4LmC": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_tH43bR": {
+          "type": "heading",
+          "settings": {
+            "heading": "القسم الثالث: الجودة والحرفي",
+            "heading_size": "h1"
+          }
+        },
+        "text_cJAVxL": {
+          "type": "text",
+          "settings": {
+            "text": "<p>نفخر بالجودة الاستثنائية التي نقدمها في كل منتج. مناشفنا وأرديتنا مصنوعة من قطن تركي ومصري فاخر بنسبة نقاء <br/> مئة بالمئة، مما يضمن لك النعومة الفائقة والقدرة الامتصاصية العالية. نستخدم فقط أجود أنواع القطن طويل التيلة <br/> الذي يوفر متانة استثنائية ونعومة لا مثيل لها. تقنيات النسج المتقدمة تضمن توزيعاً متساوياً للألياف وكثافة مثالية <br/> تدوم لسنوات. نستخدم أصباغاً آمنة وصديقة للبشرة تحافظ على بريقها حتى بعد الغسيل المتكرر. كل منتج يمر بفحوصات <br/> دقيقة للجودة قبل أن يصل إليك، ونجمع بين الأناقة الكلاسيكية والتصاميم المعاصرة لتناسب جميع الأذواق.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_tH43bR",
+        "text_cJAVxL"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/549438648_1390021993131446_2162882709229691747_n.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "rich_text_RTBaJb",
+    "image_with_text_KVfLQB",
+    "image_with_text_GD4LmC"
   ]
 }
