@@ -646,6 +646,122 @@
       "tooltip": {
         "accessibility_label_context": "مزيد من المعلومات حول %{context}",
         "additional_payment_methods": "طرق الدفع الإضافية"
+      },
+      "payment": {
+        "waiting_on_taxes_message": "إذا لم يتم حساب الضرائب الخاصة بك خلال الثواني القليلة القادمة، قم بتحديث الصفحة.",
+        "waiting_on_taxes_notice": "حساب الضرائب",
+        "payment_method": "طريقة الدفع",
+        "payment_method_rollup_accessibility_label": "خيارات طريقة الدفع",
+        "expired_payment_method": "انتهت صلاحية طريقة الدفع المحددة",
+        "payment_method_update_failed": "فشل تحديث طريقة الدفع.",
+        "payment_method_incompatible_with_payment_terms": "طريقة الدفع غير متوافقة مع شروط الدفع.",
+        "proposed_gateway_unavailable": "بوابة الدفع المقترحة غير متاحة",
+        "pay_in_installments_split_pay_short": "4 دفعات بقيمة %{amount}",
+        "gift_cards_unavailable": "لم يعد من الممكن تطبيق بطاقة الهدية الخاصة بك على هذا الطلب وتمت إزالتها",
+        "payment_flexibility_terms_id_mismatch": "شروط مرونة الدفع عدم تطابق الهوية",
+        "payment_option": {
+          "accessibility_label": "اختر خيار الدفع"
+        },
+        "bank_account_type": {
+          "checking": "التحقق",
+          "savings": "المدخرات"
+        },
+        "new_bank_account_disclaimer": "من خلال إكمال طلبك، فإنك تسمح لـ %{shop_name} بخصم المبلغ، وفي الوقت الموضح، من الحساب أدناه عبر ACH.",
+        "bank_account_disclaimer": "قد يستغرق معالجة مدفوعات ACH ما يصل إلى 4 أيام عمل.",
+        "bank_account_choose": "اختر حسابًا لإكمال عملية الشراء الخاصة بك بأمان",
+        "bank_account_connect_another": "ربط حساب بنكي آخر",
+        "bank_account_connect": "ربط الحساب البنكي",
+        "bank_account_missing": "يجب ربط الحساب البنكي",
+        "bank_account_generic_error": "تعذر إضافة الحساب البنكي. حاول مرة أخرى لاحقًا.",
+        "separate_payments_label": "منتجاتك من أكثر من متجر. سيتم خصم المبلغ منك بنسبة %{separate_payments_link}.",
+        "separate_payments_text": "مدفوعات منفصلة",
+        "payments": "المدفوعات"
+      },
+      "billing": {
+        "billing_address_title": "مشروع قانون ل",
+        "billing_address_rollup_accessibility_label": "خيارات الفاتورة",
+        "same_as_shipping": "نفس عنوان الشحن",
+        "add_address": "استخدم عنوانًا مختلفًا",
+        "edit": "يحرر",
+        "delete": "يمسح",
+        "address_more": "مزيد من الإجراءات لهذا العنوان",
+        "address_edit": "تعديل العنوان",
+        "address_delete": "حذف العنوان",
+        "address_confirm": "هل أنت متأكد أنك تريد حذف هذا العنوان من حسابك؟",
+        "address_form": {
+          "add_address": "إضافة عنوان",
+          "save": "يحفظ",
+          "cancel": "يلغي"
+        }
+      },
+      "company_location": {
+        "location_title": "موقع الشركة",
+        "location_rollup_accessibility_label": "خيارات موقع الشركة"
+      },
+      "payment_summary": {
+        "gift_card_current_balance_notice": "الرصيد الحالي %{amount}",
+        "credit_card_expires_on_notice": "تنتهي صلاحيتها في %{month}/%{year}",
+        "express_payment_gateway_label": "يعبر",
+        "manual_payment_gateway_label": "يدوي",
+        "billing_address_title": "عنوان الفاتورة",
+        "free_label": "حر"
+      },
+      "field_errors": {
+        "handle_phone_invalid": "أدخل رقم هاتف صالح",
+        "handle_email_invalid": "أدخل بريدًا إلكترونيًا صالحًا",
+        "email_invalid": "أدخل بريدًا إلكترونيًا صالحًا",
+        "email_or_phone_blank": "أدخل البريد الإلكتروني أو رقم الهاتف",
+        "email_or_phone_invalid": "أدخل بريدًا إلكترونيًا صالحًا أو رقم هاتف محمول",
+        "address_first_name_blank": "أدخل الاسم الأول",
+        "address_first_name_too_long": "الاسم الأول طويل جدًا (الحد الأقصى هو 255 حرفًا)",
+        "address_first_name_contains_emojis": "لا يمكن أن يحتوي الاسم الأول على رموز تعبيرية",
+        "address_first_name_contains_html_tags": "لا يمكن أن يحتوي الاسم الأول على علامات HTML.",
+        "address_first_name_contains_url": "لا يمكن أن يحتوي الاسم الأول على عنوان URL",
+        "address_first_name_contains_mathematical_symbols": "لا يمكن أن يحتوي الاسم الأول على رموز رياضية",
+        "address_last_name_blank": "أدخل اسم العائلة",
+        "address_last_name_too_long": "الاسم الأخير طويل جدًا (الحد الأقصى هو 255 حرفًا)",
+        "address_last_name_contains_emojis": "لا يمكن أن يحتوي الاسم الأخير على رموز تعبيرية",
+        "address_last_name_contains_html_tags": "لا يمكن أن يحتوي الاسم الأخير على علامات HTML.",
+        "address_last_name_contains_url": "لا يمكن أن يحتوي الاسم الأخير على عنوان URL",
+        "address_last_name_contains_mathematical_symbols": "لا يمكن أن يحتوي الاسم الأخير على رموز رياضية",
+        "address_address1_blank": "أدخل عنوانًا",
+        "address_address1_too_long": "سطر العنوان الأول طويل جدًا (الحد الأقصى هو 255 حرفًا)",
+        "address_address1_contains_emojis": "لا يمكن أن يحتوي العنوان 1 على رموز تعبيرية",
+        "address_address1_contains_html_tags": "لا يمكن أن يحتوي العنوان 1 على علامات HTML.",
+        "address_address1_contains_mathematical_symbols": "لا يمكن لسطر العنوان الأول أن يحتوي على رموز رياضية",
+        "address_address2_blank": "أدخل شقة أو جناحًا أو ما إلى ذلك.",
+        "address_address2_too_long": "سطر العنوان الثاني طويل جدًا (الحد الأقصى هو 255 حرفًا)",
+        "address_address2_contains_emojis": "لا يمكن أن يحتوي العنوان 2 على رموز تعبيرية",
+        "address_address2_contains_html_tags": "لا يمكن أن يحتوي Address2 على علامات HTML.",
+        "address_address2_contains_mathematical_symbols": "لا يمكن لسطر العنوان الثاني أن يحتوي على رموز رياضية",
+        "address_city_blank": "أدخل المدينة",
+        "address_city_too_long": "المدينة طويلة جدًا (الحد الأقصى هو 255 حرفًا)",
+        "address_city_contains_emojis": "لا يمكن للمدينة أن تحتوي على رموز تعبيرية",
+        "address_city_contains_html_tags": "لا يمكن للمدينة أن تحتوي على علامات HTML.",
+        "address_city_contains_mathematical_symbols": "لا يمكن للمدينة أن تحتوي على رموز رياضية",
+        "address_country_blank": "حدد البلد/المنطقة",
+        "address_country_not_supported": "لا نشحن إلى هذه الدولة أو المنطقة. أدخل عنوان شحن جديد وحاول مرة أخرى.",
+        "address_province_blank": "حدد الولاية / المقاطعة",
+        "address_province_invalid": "حدد ولاية/مقاطعة صالحة",
+        "address_company_blank": "أدخل اسم الشركة",
+        "address_company_too_long": "اسم الشركة طويل جدًا (الحد الأقصى 255 حرفًا)",
+        "address_company_contains_emojis": "لا يمكن للشركة أن تحتوي على رموز تعبيرية",
+        "address_company_contains_html_tags": "لا يمكن للشركة أن تحتوي على علامات HTML.",
+        "address_company_contains_mathematical_symbols": "لا يجوز للشركة أن تحتوي على رموز رياضية",
+        "address_phone_blank": "أدخل رقم هاتف صالح",
+        "address_phone_contains_emojis": "لا يمكن أن يحتوي رقم الهاتف على رموز تعبيرية",
+        "address_phone_invalid": "أدخل رقم هاتف صالح",
+        "address_zip_blank": "أدخل الرمز البريدي",
+        "address_zip_blocked_address": "هذا الموقع غير مدعوم",
+        "address_zip_too_long": "الرمز البريدي طويل جدًا (الحد الأقصى هو 255 حرفًا)",
+        "address_zip_not_supported": "هذا الموقع غير مدعوم",
+        "address_zip_invalid_for_country": "أدخل رمزًا بريديًا صالحًا لـ %{country}",
+        "address_zip_invalid_for_province": "أدخل رمزًا بريديًا صالحًا لـ %{province}",
+        "address_zip_invalid_for_country_and_province": "أدخل رمزًا بريديًا صالحًا لـ %{province}، %{country}",
+        "address_zip_contains_emojis": "لا يمكن أن يحتوي الرمز البريدي على رموز تعبيرية",
+        "address_zip_contains_mathematical_symbols": "لا يمكن أن يحتوي الرمز البريدي على رموز رياضية",
+        "address_generic_blank": "حقل مطلوب",
+        "address_generic_invalid": "إدخال غير صالح"
       }
     },
     "pagination": {
@@ -697,7 +813,143 @@
     },
     "errors": {
       "blank": "لا يمكن أن يكون فارغا",
-      "blocked_address": "هذا الموقع غير مدعوم"
+      "blocked_address": "هذا الموقع غير مدعوم",
+      "credit_card_session_expired": "انتهت صلاحية تفويض بطاقتك الائتمانية، يُرجى إدخال معلومات الدفع مرة أخرى. لم يتم خصم أي مبلغ من بطاقتك.",
+      "empty": "لا يمكن أن يكون فارغا",
+      "invalid_email": "يجب أن يكون عنوان بريد إلكتروني صالحًا",
+      "discount_disabled": "تم تعطيل هذا الخصم",
+      "discount_expired": "هذا الخصم لم يعد صالحا بعد الآن",
+      "discount_limit_reached": "لقد وصل هذا الخصم إلى الحد الأقصى للاستخدام",
+      "discount_not_found": "غير قادر على العثور على خصم صالح يطابق الكود الذي تم إدخاله",
+      "customer_already_used_once_per_customer_discount_notice": "لقد وصل هذا الخصم إلى الحد الأقصى للاستخدام",
+      "gift_card_already_applied": "لقد تم تطبيق الكود بالفعل على عملية الدفع الخاصة بك",
+      "gift_card_code_invalid": "الكود غير صالح",
+      "gift_card_currency_mismatch": "بطاقة الهدية الخاصة بك بعملة %{gift_card_currency}. تواصل معنا لإعادة إصدارها بعملة %{checkout_currency}.",
+      "gift_card_depleted": "لا يوجد رصيد متبقي في بطاقة الهدية هذه",
+      "gift_card_disabled": "تم تعطيل بطاقة الهدايا",
+      "gift_card_expired": "انتهت صلاحية بطاقة الهدية",
+      "invalid": "غير صالح",
+      "bad_domain": "يحتوي على اسم نطاق غير صالح",
+      "taken": "لقد اتخذت بالفعل",
+      "contains_html_tags": "لا يمكن أن تحتوي على علامات HTML",
+      "too_short": "قصير جدًا (الحد الأدنى هو %{count} حرفًا)",
+      "too_long": "طويل جدًا (الحد الأقصى هو %{count} حرفًا)",
+      "password_mismatch": "يجب أن تتطابق مع كلمة المرور المقدمة",
+      "contains_spaces": "يبدأ أو ينتهي بمسافات.",
+      "invalid_for_country": "غير صالح لـ %{country}",
+      "invalid_for_country_and_province": "غير صالح لـ %{province} و %{country}",
+      "invalid_province_in_country": "ليست مقاطعة صالحة في %{country}",
+      "invalid_state_in_country": "ليست حالة صالحة في %{country}",
+      "invalid_region_in_country": "ليست منطقة صالحة في %{country}",
+      "less_than_or_equal_to": "يجب أن يكون أقل من أو يساوي %{count}",
+      "not_supported": "غير مدعوم",
+      "full_name_required": "أدخل الاسم الأول واسم العائلة",
+      "invalid_for_card_type": "غير صالح",
+      "invalid_type": "نأسف، لا نقبل بطاقات من هذا النوع",
+      "invalid_format": "التنسيق غير صالح",
+      "expired": "انتهت صلاحيتها",
+      "invalid_start_date_or_issue_number_for_debit": "يجب إدخال تاريخ بدء أو رقم إصدار صالح",
+      "invalid_expiry_year": "ليست سنة انتهاء صلاحية صالحة",
+      "reset_password_html": "هذا البريد الإلكتروني مرتبط بحساب. إذا كان هذا الحساب ملكك، يمكنك <a href=\"/account/login#recover\">إعادة تعيين كلمة المرور.</a>",
+      "verify_email": "لقد أرسلنا بريدًا إلكترونيًا إلى %{customer_email}، يرجى النقر فوق الرابط المضمن للتحقق من عنوان بريدك الإلكتروني.",
+      "product_not_available": "لم يتم نشر المنتج لهذا العميل.",
+      "shop_404": {
+        "title": "أنشئ موقعًا للتجارة الإلكترونية وبع عبر الإنترنت! برنامج التجارة الإلكترونية من Shopify",
+        "heros": {
+          "store_unavailable": "عذراً، هذا المتجر غير متوفر حالياً.",
+          "store_not_exist": "هذا المتجر غير موجود.",
+          "no_storefront": "هذا المتجر لا يملك موقعا على شبكة الإنترنت حتى الآن."
+        },
+        "links": {
+          "explore_other_stores": "استكشف المتاجر الأخرى",
+          "start_free_trial": "ابدأ تجربة مجانية"
+        },
+        "owner_ctas": {
+          "header": "هل أنت صاحب المتجر؟",
+          "fix_domain": "أكمل إعداد عنوان الويب الجديد، انتقل إلى %{domain_settings_link}. انقر على \"ربط النطاق\" وأدخل: %{domain}.<br> إذا كنت تواجه مشكلة في الدخول إلى متجرك، فجرب صفحة %{forgot_your_store_link}.",
+          "fix_domain_link_text": "إعدادات المجال الخاص بك",
+          "forgot_your_store_link_text": "نسيت متجرك",
+          "add_storefront": "يمكنك إعداد موقعك الإلكتروني بإضافة قناة المتجر الإلكتروني في صفحة %{admin_link}. إذا واجهت صعوبة في الوصول إلى متجرك، فجرّب صفحة %{forgot_your_store_link}.",
+          "admin_link_text": "مسؤل"
+        },
+        "ctas": {
+          "sell_in_person": {
+            "header": "بيع شخصيا",
+            "caption": "احصل على الميزات التي تحتاجها لإدارة متجر البيع بالتجزئة الخاص بك سواء كنت مبتدئًا أو في مرحلة التوسع.",
+            "link_text": "ابدأ التجربة المجانية"
+          },
+          "open_a_store": {
+            "header": "افتح متجر Shopify جديدًا",
+            "caption": "ابدأ تجربة مجانية لمدة 3 أيام، ثم استمر مقابل 1 دولار شهريًا للأشهر الثلاثة التالية.",
+            "link_text": "سجل الآن"
+          },
+          "editions": {
+            "header": "تحقق من إصدارات Shopify",
+            "caption": "مع أكثر من 100 تحديث للمنتج، يمكنك أن تكون أكثر إنتاجية وإبداعًا وقوة في التجارة أكثر مما كنت تتخيل.",
+            "link_text": "استكشف أحدث الإصدارات"
+          },
+          "store_owner": {
+            "header": "هل أنت صاحب المتجر؟",
+            "caption": "هل تواجه صعوبة في الوصول إلى متجرك؟ جرّب ميزة %{forgot_your_store_link}. لإعادة تفعيل متجرك، تواصل مع %{shopify_support_link}.",
+            "shopify_support_link_text": "دعم شوبيفاي"
+          }
+        }
+      }
+    },
+    "notices": {
+      "customer": {
+        "password_reset_error": "خطأ في إعادة تعيين كلمة المرور",
+        "subscribe_error": "خطأ الاشتراك",
+        "unsubscribe_error": "خطأ إلغاء الاشتراك",
+        "no_account_found": "لم يتم العثور على حساب بهذا البريد الإلكتروني.",
+        "invalid_credentials": "البريد الإلكتروني أو كلمة المرور غير صحيحة.",
+        "denylisted_reset_password": "تعذّر الوصول إلى حسابك لأن كلمة المرور الحالية غير آمنة. ستتلقى بريدًا إلكترونيًا لتحديث كلمة المرور.",
+        "signup_disabled": "تم تعطيل إنشاء حساب العميل."
+      },
+      "address": {
+        "updated": "تم تحديث العنوان بنجاح.",
+        "error_updating": "خطأ في تحديث العنوان",
+        "created": "تم إنشاء العنوان بنجاح",
+        "error_creating": "خطأ في إنشاء العنوان.",
+        "deleted": "تم حذف العنوان بنجاح",
+        "error_deleting": "خطأ في حذف العنوان."
+      },
+      "line_item": {
+        "item_status": {
+          "add_variant": "تمت إضافة %{delta}",
+          "increment_item": "تمت إضافة %{delta}",
+          "decrement_item": "تمت إزالة %{delta} من %{total}",
+          "decrement_fulfilled_line_item": "تم إرجاع %{delta} من %{total}",
+          "decrement_return_line_item": "تمت إزالة %{delta} من الإرجاع"
+        }
+      },
+      "order": {
+        "not_available": "هذا الطلب غير متوفر",
+        "financial_status": {
+          "authorized": "مُصرّح به",
+          "pending": "قيد الانتظار",
+          "paid": "مدفوع",
+          "unpaid": "غير مدفوع الأجر",
+          "voided": "ملغاة",
+          "partially_paid": "تم الدفع جزئيًا",
+          "partially_refunded": "تم استرداد المبلغ جزئيًا",
+          "refunded": "تم استرداد المبلغ",
+          "expired": "منتهي الصلاحية"
+        },
+        "fulfillment_status": {
+          "fulfilled": "تم تحقيقها",
+          "complete": "مكتمل",
+          "partial": "جزئي",
+          "unfulfilled": "غير محقق",
+          "restocked": "تم إعادة تخزينها"
+        },
+        "transaction_status": {
+          "success": "نجاح",
+          "pending": "قيد الانتظار",
+          "failure": "فشل",
+          "error": "خطأ"
+        }
+      }
     }
   }
 }
