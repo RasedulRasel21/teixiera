@@ -258,95 +258,6 @@
         "custom_class": ""
       }
     },
-    "testmonial_v2_BV3zfC": {
-      "type": "testmonial_v2",
-      "blocks": {
-        "testimonial_J4ntNy": {
-          "type": "testimonial",
-          "settings": {
-            "show_image": true,
-            "image": "shopify://shop_images/561300745_1406960204770958_5271908615929452820_n_d80c4d06-7c03-486d-84d0-9156ef59f643.jpg",
-            "text": "<p>ازرقطقم المواليدازرقطقم المواليدازرقطقم المواليدازرقطقم المواليدازرقطقم المواليد</p>",
-            "author": "ازرقطقم المواليد",
-            "bio": "",
-            "show_rating": true,
-            "rating": 5,
-            "star_color": "#ff3f7f",
-            "product": "",
-            "icon": "none"
-          }
-        },
-        "testimonial_QaNxUn": {
-          "type": "testimonial",
-          "settings": {
-            "show_image": true,
-            "image": "shopify://shop_images/549921795_1390022033131442_2328129394905373460_n.jpg",
-            "text": "<p>ازرقطقم المواليدازرقطقم المواليدازرقطقم المواليدازرقطقم المواليدازرقطقم المواليد</p>",
-            "author": "ازرقطقم المواليد",
-            "bio": "",
-            "show_rating": true,
-            "rating": 5,
-            "star_color": "#ff3f7f",
-            "product": "",
-            "icon": "none"
-          }
-        },
-        "testimonial_J4UyxB": {
-          "type": "testimonial",
-          "settings": {
-            "show_image": true,
-            "image": "shopify://shop_images/550661613_1392140262919619_4385173860030118830_n_bfaa379e-d4fd-4334-85f6-88afa703ebb2.jpg",
-            "text": "<p>ازرقطقم المواليدازرقطقم المواليدازرقطقم المواليدازرقطقم المواليدازرقطقم المواليد</p>",
-            "author": "ازرقطقم المواليد",
-            "bio": "",
-            "show_rating": true,
-            "rating": 5,
-            "star_color": "#ff3f7f",
-            "product": "",
-            "icon": "none"
-          }
-        },
-        "testimonial_ynqnaB": {
-          "type": "testimonial",
-          "settings": {
-            "show_image": true,
-            "image": "shopify://shop_images/558085397_1408137787986533_6331988564115786581_n_f02e9e19-1369-40fe-8081-1b3c819c7131.jpg",
-            "text": "<p>ازرقطقم المواليدازرقطقم المواليدازرقطقم المواليدازرقطقم المواليدازرقطقم المواليد</p>",
-            "author": "ازرقطقم المواليد",
-            "bio": "",
-            "show_rating": true,
-            "rating": 5,
-            "star_color": "#ff3f7f",
-            "product": "",
-            "icon": "none"
-          }
-        }
-      },
-      "block_order": [
-        "testimonial_J4ntNy",
-        "testimonial_QaNxUn",
-        "testimonial_J4UyxB",
-        "testimonial_ynqnaB"
-      ],
-      "name": "Testimonials V2",
-      "settings": {
-        "color_scheme": "",
-        "heading": "ازرقطقم المواليد",
-        "heading_size": "h1",
-        "subheading": "",
-        "description": "",
-        "text_size": "text-base",
-        "card_color_scheme": "",
-        "card_layout": "1",
-        "card_text_size": "text-base",
-        "columns_desktop": 4,
-        "column_gap": 20,
-        "columns_mobile": "1",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "custom_class": ""
-      }
-    },
     "featured_collection_v2_YmGXNV": {
       "type": "featured-collection-v2",
       "name": "Featured Collection V2",
@@ -492,6 +403,95 @@
         "custom_class": ""
       }
     },
+    "testmonial_v2_BV3zfC": {
+      "type": "testmonial_v2",
+      "blocks": {
+        "testimonial_J4ntNy": {
+          "type": "testimonial",
+          "settings": {
+            "show_image": true,
+            "image": "shopify://shop_images/561300745_1406960204770958_5271908615929452820_n_d80c4d06-7c03-486d-84d0-9156ef59f643.jpg",
+            "text": "<p>ازرقطقم المواليدازرقطقم المواليدازرقطقم المواليدازرقطقم المواليدازرقطقم المواليد</p>",
+            "author": "ازرقطقم المواليد",
+            "bio": "",
+            "show_rating": true,
+            "rating": 5,
+            "star_color": "#ff3f7f",
+            "product": "",
+            "icon": "none"
+          }
+        },
+        "testimonial_QaNxUn": {
+          "type": "testimonial",
+          "settings": {
+            "show_image": true,
+            "image": "shopify://shop_images/549921795_1390022033131442_2328129394905373460_n.jpg",
+            "text": "<p>ازرقطقم المواليدازرقطقم المواليدازرقطقم المواليدازرقطقم المواليدازرقطقم المواليد</p>",
+            "author": "ازرقطقم المواليد",
+            "bio": "",
+            "show_rating": true,
+            "rating": 5,
+            "star_color": "#ff3f7f",
+            "product": "",
+            "icon": "none"
+          }
+        },
+        "testimonial_J4UyxB": {
+          "type": "testimonial",
+          "settings": {
+            "show_image": true,
+            "image": "shopify://shop_images/550661613_1392140262919619_4385173860030118830_n_bfaa379e-d4fd-4334-85f6-88afa703ebb2.jpg",
+            "text": "<p>ازرقطقم المواليدازرقطقم المواليدازرقطقم المواليدازرقطقم المواليدازرقطقم المواليد</p>",
+            "author": "ازرقطقم المواليد",
+            "bio": "",
+            "show_rating": true,
+            "rating": 5,
+            "star_color": "#ff3f7f",
+            "product": "",
+            "icon": "none"
+          }
+        },
+        "testimonial_ynqnaB": {
+          "type": "testimonial",
+          "settings": {
+            "show_image": true,
+            "image": "shopify://shop_images/558085397_1408137787986533_6331988564115786581_n_f02e9e19-1369-40fe-8081-1b3c819c7131.jpg",
+            "text": "<p>ازرقطقم المواليدازرقطقم المواليدازرقطقم المواليدازرقطقم المواليدازرقطقم المواليد</p>",
+            "author": "ازرقطقم المواليد",
+            "bio": "",
+            "show_rating": true,
+            "rating": 5,
+            "star_color": "#ff3f7f",
+            "product": "",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_J4ntNy",
+        "testimonial_QaNxUn",
+        "testimonial_J4UyxB",
+        "testimonial_ynqnaB"
+      ],
+      "name": "Testimonials V2",
+      "settings": {
+        "color_scheme": "",
+        "heading": "ازرقطقم المواليد",
+        "heading_size": "h1",
+        "subheading": "",
+        "description": "",
+        "text_size": "text-base",
+        "card_color_scheme": "",
+        "card_layout": "1",
+        "card_text_size": "text-base",
+        "columns_desktop": 4,
+        "column_gap": 20,
+        "columns_mobile": "1",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "custom_class": ""
+      }
+    },
     "newsletter_v2_pmrAn6": {
       "type": "newsletter-v2",
       "name": "Newsletter V2",
@@ -524,10 +524,10 @@
     "featured_collection_v2_hrjgnw",
     "rich_text_kfALeF",
     "collection_list_v2_UPwNA6",
-    "testmonial_v2_BV3zfC",
-    "featured_collection_v2_YmGXNV",
     "collage_tab_eGjRnh",
+    "featured_collection_v2_YmGXNV",
     "scrolling_promotion_dbMHjm",
+    "testmonial_v2_BV3zfC",
     "newsletter_v2_pmrAn6"
   ]
 }
