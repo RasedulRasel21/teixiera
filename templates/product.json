@@ -48,12 +48,6 @@
         "description": {
           "type": "description",
           "settings": {}
-        },
-        "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
         }
       },
       "block_order": [
@@ -63,29 +57,64 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "description",
-        "share"
+        "description"
       ],
       "settings": {
         "enable_sticky_info": true,
         "color_scheme": "scheme-1",
-        "media_size": "large",
+        "media_size": "medium",
         "constrain_to_viewport": true,
         "media_fit": "contain",
-        "gallery_layout": "stacked",
+        "gallery_layout": "thumbnail_slider",
         "mobile_thumbnails": "hide",
-        "media_position": "left",
+        "media_position": "right",
         "image_zoom": "lightbox",
         "hide_variants": true,
-        "enable_video_looping": false,
+        "enable_video_looping": true,
         "padding_top": 36,
         "padding_bottom": 12
       }
     },
+    "17626135042b1a9488": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_8d8c834_ydn8gT": {
+          "type": "ai_gen_block_8d8c834",
+          "settings": {
+            "feature_1_title": "ًالشحن مجانا",
+            "feature_1_text": "على الطلبات التي تزيد عن 50 دولارًا",
+            "feature_2_title": "تسليم سريع",
+            "feature_2_text": "2-3 أيام عمل",
+            "feature_3_title": "الدفع الآمن",
+            "feature_3_text": "دفع آمن بنسبة 100%",
+            "container_width": 1200,
+            "column_gap": 40,
+            "alignment": "center",
+            "padding_top": 40,
+            "padding_bottom": 40,
+            "icon_size": 60,
+            "icon_border_radius": 50,
+            "icon_text_gap": 15,
+            "icon_color": "#121212",
+            "icon_background_color": "#f3eeea",
+            "title_size": 16,
+            "text_size": 14,
+            "title_color": "#121212",
+            "text_color": "#121212",
+            "background_color": "#ffffff"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_8d8c834_ydn8gT"
+      ],
+      "settings": {}
+    },
     "related-products": {
       "type": "related-products",
       "settings": {
-        "heading": "You may also like",
+        "heading": "قد ترغب أيضا",
         "heading_size": "h2",
         "products_to_show": 4,
         "columns_desktop": 4,
@@ -99,10 +128,109 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "image_with_text_cf8DyH": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_Ce6wFY": {
+          "type": "heading",
+          "settings": {
+            "heading": "جودة استثنائية",
+            "heading_size": "h1"
+          }
+        },
+        "text_ct68ib": {
+          "type": "text",
+          "settings": {
+            "text": "<p>تمتع بتجربة رائعة مع مجموعتنا المميزة من المناشف والأردية المصنوعة من أجود أنواع القطن الطبيعي.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_n3CDhP": {
+          "type": "button",
+          "settings": {
+            "button_label": "اطلع على المزيد",
+            "button_link": "shopify://collections",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_Ce6wFY",
+        "text_ct68ib",
+        "button_n3CDhP"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/557964758_1408137727986539_3178417288959511347_n_4b3fd4a9-2095-4382-80c7-e2bfd7bc5306.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_jBQJBH": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_iTXqRq": {
+          "type": "heading",
+          "settings": {
+            "heading": "جودة استثنائية",
+            "heading_size": "h1"
+          }
+        },
+        "text_PpJ9fb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>تمتع بتجربة رائعة مع مجموعتنا المميزة من المناشف والأردية المصنوعة من أجود أنواع القطن الطبيعي.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_bmDzG6": {
+          "type": "button",
+          "settings": {
+            "button_label": "اطلع على المزيد",
+            "button_link": "shopify://collections",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_iTXqRq",
+        "text_PpJ9fb",
+        "button_bmDzG6"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/561300745_1406960204770958_5271908615929452820_n.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
-    "related-products"
+    "17626135042b1a9488",
+    "related-products",
+    "image_with_text_cf8DyH",
+    "image_with_text_jBQJBH"
   ]
 }

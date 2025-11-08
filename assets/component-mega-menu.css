@@ -14,6 +14,7 @@
   position: absolute;
   right: 0;
   top: 100%;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
 }
 
 .shopify-section-header-sticky .mega-menu__content {
@@ -27,11 +28,16 @@
 .js .mega-menu__content {
   opacity: 0;
   transform: translateY(-1.5rem);
+  transition: opacity 0.4s cubic-bezier(0.4, 0, 0.2, 1),
+    transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), visibility 0s linear 0.4s;
 }
 
 .mega-menu[open] .mega-menu__content {
   opacity: 1;
-  transform: translateY(0);
+  transform: translate(0px, -28px);
+  z-index: 1;
+  transition: opacity 0.4s cubic-bezier(0.4, 0, 0.2, 1),
+    transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), visibility 0s linear 0s;
 }
 
 .mega-menu__list {
@@ -84,4 +90,188 @@
 
 .mega-menu__list--condensed .mega-menu__link {
   font-weight: normal;
+}
+
+/* Hover-based mega menu - Enhanced */
+.js .mega-menu__content {
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.mega-menu[open] .mega-menu__content {
+  visibility: visible;
+  pointer-events: auto;
+}
+
+/* Remove details arrow marker */
+.mega-menu summary::marker,
+.mega-menu summary::-webkit-details-marker {
+  display: none;
+}
+
+/* Smooth arrow rotation */
+.mega-menu summary svg {
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mega-menu[open] summary svg {
+  transform: rotate(180deg);
+}
+
+/* Menu item hover state */
+.mega-menu summary:hover {
+  opacity: 0.8;
+}
+
+/* Animate menu items on open */
+.mega-menu[open] .mega-menu__link {
+  animation: fadeInUp 0.4s ease forwards;
+}
+
+.mega-menu[open] .mega-menu__link:nth-child(1) {
+  animation-delay: 0.05s;
+}
+.mega-menu[open] .mega-menu__link:nth-child(2) {
+  animation-delay: 0.1s;
+}
+.mega-menu[open] .mega-menu__link:nth-child(3) {
+  animation-delay: 0.15s;
+}
+.mega-menu[open] .mega-menu__link:nth-child(4) {
+  animation-delay: 0.2s;
+}
+.mega-menu[open] .mega-menu__link:nth-child(5) {
+  animation-delay: 0.25s;
+}
+.mega-menu[open] .mega-menu__link:nth-child(6) {
+  animation-delay: 0.3s;
+}
+.mega-menu[open] .mega-menu__link:nth-child(7) {
+  animation-delay: 0.35s;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Mega menu wrapper with images */
+.mega-menu__wrapper {
+  display: flex;
+  gap: 3rem;
+  align-items: flex-start;
+}
+
+.mega-menu__list {
+  flex: 1;
+}
+
+.mega-menu__images {
+  display: flex;
+  gap: 2rem;
+  flex-shrink: 0;
+}
+
+.mega-menu__image-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--media-radius);
+}
+
+.mega-menu__image-link {
+  display: block;
+  position: relative;
+  text-decoration: none;
+  height: 100%;
+}
+
+.mega-menu__image {
+  display: block;
+  width: 200px;
+  height: 100%;
+  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Animate images on open - Right to left fade */
+.mega-menu__image-item {
+  opacity: 0;
+  transform: translateX(30px);
+}
+
+.mega-menu[open] .mega-menu__image-item {
+  animation: fadeInRight 0.5s ease forwards;
+}
+
+.mega-menu[open] .mega-menu__image-item:nth-child(1) {
+  animation-delay: 0.2s;
+}
+
+.mega-menu[open] .mega-menu__image-item:nth-child(2) {
+  animation-delay: 0.4s;
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* RTL version - Left to right fade */
+[dir="rtl"] .mega-menu__image-item {
+  transform: translateX(-30px);
+}
+
+[dir="rtl"] .mega-menu[open] .mega-menu__image-item {
+  animation: fadeInLeft 0.5s ease forwards;
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.mega-menu__image-link:hover .mega-menu__image {
+  transform: scale(1.05);
+}
+
+.mega-menu__image-title {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  right: 1rem;
+  background: rgba(var(--color-background), 0.9);
+  color: rgb(var(--color-foreground));
+  padding: 0.8rem 1.2rem;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 1.4rem;
+  text-align: center;
+  transition: background 0.3s ease;
+}
+
+.mega-menu__image-link:hover .mega-menu__image-title {
+  background: rgb(var(--color-background));
+}
+
+@media screen and (max-width: 989px) {
+  .mega-menu__images {
+    display: none;
+  }
 }
