@@ -112,7 +112,7 @@
         "layout": "standard",
         "slide_height": "large",
         "show_dots": true,
-        "autoplay": false,
+        "autoplay": true,
         "autoplay_delay": 3,
         "controls_position": "bottom",
         "use_ancient_font": false,
