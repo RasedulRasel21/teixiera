@@ -273,7 +273,7 @@
             "subheading": "",
             "description": "<p>تمتع بتجربة رائعة مع مجموعتنا المميزة من المناشف والأردية المصنوعة من أجود أنواع القطن الطبيعي.</p>",
             "text_size": "text-base",
-            "text_alignment": "center",
+            "text_alignment": "left",
             "button_label": "اطلع على المزيد",
             "button_link": "shopify://collections/adult-poncho",
             "button_style": "btn--primary"
@@ -291,7 +291,7 @@
             "subheading": "",
             "description": "<p>تمتع بتجربة رائعة مع مجموعتنا المميزة من المناشف والأردية المصنوعة من أجود أنواع القطن الطبيعي.</p>",
             "text_size": "text-base",
-            "text_alignment": "center",
+            "text_alignment": "left",
             "button_label": "اطلع على المزيد",
             "button_link": "shopify://collections/hair-towel",
             "button_style": "btn--primary"
