@@ -147,6 +147,49 @@
         "custom_class": ""
       }
     },
+    "rich_text_kfALeF": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_d46b7k": {
+          "type": "heading",
+          "settings": {
+            "heading": "ازرقطقم المواليدازرقطقم",
+            "heading_size": "h1"
+          }
+        },
+        "text_YBFHcP": {
+          "type": "text",
+          "settings": {
+            "text": "<p>ازرقطقم المواليدازرقطقم المواليدازرقطقم المواليدازرقطقم المواليدازرقطقم المواليدازرقطقم المواليدازرقطقم المواليدازرقطقم المواليازرقطقم المواليدازرقطقم المواليدازرقطقم المواليدازرقطقم المواليدازرقطقم المواليدازرقطقم المواليدازرقطقم المواليدازرقطقم الموالي</p>"
+          }
+        },
+        "button_h3tzhg": {
+          "type": "button",
+          "settings": {
+            "button_label": "ازرقطقم المواليدازرقطقم",
+            "button_link": "shopify://collections",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_d46b7k",
+        "text_YBFHcP",
+        "button_h3tzhg"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "collection_list_v2_UPwNA6": {
       "type": "collection-list-v2",
       "blocks": {
@@ -269,8 +312,9 @@
           "type": "testimonial",
           "settings": {
             "show_image": true,
-            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.</p>",
-            "author": "Author's name",
+            "image": "shopify://shop_images/561300745_1406960204770958_5271908615929452820_n_d80c4d06-7c03-486d-84d0-9156ef59f643.jpg",
+            "text": "<p>ازرقطقم المواليدازرقطقم المواليدازرقطقم المواليدازرقطقم المواليدازرقطقم المواليد</p>",
+            "author": "ازرقطقم المواليد",
             "bio": "",
             "show_rating": true,
             "rating": 5,
@@ -283,8 +327,9 @@
           "type": "testimonial",
           "settings": {
             "show_image": true,
-            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.</p>",
-            "author": "Author's name",
+            "image": "shopify://shop_images/549921795_1390022033131442_2328129394905373460_n.jpg",
+            "text": "<p>ازرقطقم المواليدازرقطقم المواليدازرقطقم المواليدازرقطقم المواليدازرقطقم المواليد</p>",
+            "author": "ازرقطقم المواليد",
             "bio": "",
             "show_rating": true,
             "rating": 5,
@@ -297,8 +342,9 @@
           "type": "testimonial",
           "settings": {
             "show_image": true,
-            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.</p>",
-            "author": "Author's name",
+            "image": "shopify://shop_images/550661613_1392140262919619_4385173860030118830_n_bfaa379e-d4fd-4334-85f6-88afa703ebb2.jpg",
+            "text": "<p>ازرقطقم المواليدازرقطقم المواليدازرقطقم المواليدازرقطقم المواليدازرقطقم المواليد</p>",
+            "author": "ازرقطقم المواليد",
             "bio": "",
             "show_rating": true,
             "rating": 5,
@@ -311,8 +357,9 @@
           "type": "testimonial",
           "settings": {
             "show_image": true,
-            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.</p>",
-            "author": "Author's name",
+            "image": "shopify://shop_images/558085397_1408137787986533_6331988564115786581_n_f02e9e19-1369-40fe-8081-1b3c819c7131.jpg",
+            "text": "<p>ازرقطقم المواليدازرقطقم المواليدازرقطقم المواليدازرقطقم المواليدازرقطقم المواليد</p>",
+            "author": "ازرقطقم المواليد",
             "bio": "",
             "show_rating": true,
             "rating": 5,
@@ -331,7 +378,7 @@
       "name": "Testimonials V2",
       "settings": {
         "color_scheme": "",
-        "heading": "Testimonials",
+        "heading": "ازرقطقم المواليد",
         "heading_size": "h1",
         "subheading": "",
         "description": "",
@@ -354,16 +401,17 @@
           "type": "tab",
           "settings": {
             "content_color_scheme": "",
-            "navigation_title": "Tab 1",
-            "heading": "Collage tab heading",
+            "navigation_title": "ازرقطقم المواليد 1",
+            "image": "shopify://shop_images/558085397_1408137787986533_6331988564115786581_n_f02e9e19-1369-40fe-8081-1b3c819c7131.jpg",
+            "heading": "ازرقطقم المواليد",
             "heading_size": "h1",
             "heading_highlight_style": "none",
             "subheading": "",
-            "description": "<p>Fill in the text content of the tab item here. You can provide details information tab item here.</p>",
+            "description": "<p>ازرقطقم المواليدازرقطقم المواليدازرقطقم المواليدازرقطقم المواليدازرقطقم المواليدازرقطقم المواليدازرقطقم المواليدازرقطقم المواليد</p>",
             "text_size": "text-base",
             "text_alignment": "center",
-            "button_label": "Button label",
-            "button_link": "",
+            "button_label": "ازرقطقم المواليد",
+            "button_link": "shopify://collections/adult-poncho",
             "button_style": "btn--primary"
           }
         },
@@ -371,16 +419,16 @@
           "type": "tab",
           "settings": {
             "content_color_scheme": "",
-            "navigation_title": "Tab 2",
-            "heading": "Collage tab heading",
+            "navigation_title": "ازرقطقم المواليد 2",
+            "heading": "ازرقطقم",
             "heading_size": "h1",
             "heading_highlight_style": "none",
             "subheading": "",
-            "description": "<p>Fill in the text content of the tab item here. You can provide details information tab item here.</p>",
+            "description": "<p>ازرقطقم المواليدازرقطقم المواليدازرقطقم المواليدازرقطقم المواليدازرقطقم المواليدازرقطقم المواليدازرقطقم المواليدازرقطقم المواليد</p>",
             "text_size": "text-base",
             "text_alignment": "center",
-            "button_label": "Button label",
-            "button_link": "",
+            "button_label": "ازرقطقم المواليد",
+            "button_link": "shopify://collections/hair-towel",
             "button_style": "btn--primary"
           }
         }
@@ -391,7 +439,7 @@
       ],
       "name": "Collage Tabs V2",
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "scheme-2",
         "heading_size": "h4",
         "desktop_navigation_alignment": "center",
         "desktop_image_position": "left",
@@ -448,6 +496,7 @@
         "image_w3P6fV",
         "image_848UyV"
       ],
+      "disabled": true,
       "name": "Scrolling Promotion V2",
       "settings": {
         "color_scheme": "",
@@ -480,9 +529,9 @@
         "design": "design-2",
         "form_width": 600,
         "email_placeholder": "Enter your email",
-        "button_label": "Subscribe",
+        "button_label": "→",
         "button_style": "btn--primary",
-        "newsletter_term": "<p>By subscribing you agree to the <a href='#'>Terms of Use</a> & <a href='#'>Privacy Policy</a>.</p>",
+        "newsletter_term": "<p>By subscribing you agree to the <a href=\"#\">Terms of Use</a> & <a href=\"#\">Privacy Policy</a>.</p>",
         "newsletter_term_size": "0.875rem",
         "padding_top": 56,
         "padding_bottom": 56,
@@ -494,6 +543,7 @@
     "featured_collection",
     "slideshow_v2_TiRke7",
     "featured_collection_v2_hrjgnw",
+    "rich_text_kfALeF",
     "collection_list_v2_UPwNA6",
     "highlighted_text_JgtJxB",
     "testmonial_v2_BV3zfC",
