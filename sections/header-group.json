@@ -45,6 +45,49 @@
     },
     "header": {
       "type": "header",
+      "blocks": {
+        "mega_menu_images_Lk7yVn": {
+          "type": "mega_menu_images",
+          "settings": {
+            "menu_handle": "towel",
+            "image_1": "shopify://shop_images/550338675_1392140292919616_2272756255846955883_n_d8cfebf2-5b0d-4a2c-aede-c7add76dafa1.jpg",
+            "image_1_title": "Featured",
+            "image_1_link": "",
+            "image_2": "shopify://shop_images/557964758_1408137727986539_3178417288959511347_n_4b3fd4a9-2095-4382-80c7-e2bfd7bc5306.jpg",
+            "image_2_title": "New Arrivals",
+            "image_2_link": ""
+          }
+        },
+        "mega_menu_images_3Twp7W": {
+          "type": "mega_menu_images",
+          "settings": {
+            "menu_handle": "bathrobe",
+            "image_1": "shopify://shop_images/528916821_1342418794558433_609983365823642802_n.jpg",
+            "image_1_title": "Featured",
+            "image_1_link": "",
+            "image_2": "shopify://shop_images/547465284_1380151847451794_7537810103545102886_n_5d860b73-da52-4747-af78-3b3cb3e5cd3b.jpg",
+            "image_2_title": "New Arrivals",
+            "image_2_link": ""
+          }
+        },
+        "mega_menu_images_wAD6mU": {
+          "type": "mega_menu_images",
+          "settings": {
+            "menu_handle": "poncho",
+            "image_1": "shopify://shop_images/547028531_1379377947529184_6040253747162589926_n.jpg",
+            "image_1_title": "Featured",
+            "image_1_link": "",
+            "image_2": "shopify://shop_images/558085397_1408137787986533_6331988564115786581_n_f02e9e19-1369-40fe-8081-1b3c819c7131.jpg",
+            "image_2_title": "New Arrivals",
+            "image_2_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "mega_menu_images_Lk7yVn",
+        "mega_menu_images_3Twp7W",
+        "mega_menu_images_wAD6mU"
+      ],
       "settings": {
         "logo_position": "middle-center",
         "mobile_logo_position": "center",
@@ -55,7 +98,7 @@
         "color_scheme": "scheme-1",
         "menu_color_scheme": "scheme-1",
         "enable_country_selector": false,
-        "enable_language_selector": false,
+        "enable_language_selector": true,
         "enable_customer_avatar": true,
         "margin_bottom": 0,
         "padding_top": 20,

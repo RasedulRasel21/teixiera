@@ -150,6 +150,13 @@
     "name": "t:settings_schema.layout.name",
     "settings": [
       {
+        "type": "checkbox",
+        "id": "enable_rtl",
+        "label": "Enable RTL (Right-to-Left)",
+        "info": "Enable this for Arabic and other RTL languages. The theme will automatically switch to RTL when Arabic locale is detected.",
+        "default": true
+      },
+      {
         "type": "range",
         "id": "page_width",
         "min": 1000,

@@ -24,6 +24,18 @@
       padding-top: {{ section.settings.padding_top }}px;
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
+
+    /* Custom footer block widths */
+    .footer__blocks-wrapper.grid .footer-block.grid__item:first-child {
+      flex: 0 0 40%;
+      max-width: 40%;
+    }
+
+    .footer__blocks-wrapper.grid .footer-block.grid__item:not(:first-child) {
+      flex: 0 0 18%;
+      max-width: 18%;
+      padding-right: 40px;
+    }
   }
 {%- endstyle -%}
 

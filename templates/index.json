@@ -127,7 +127,7 @@
       "name": "Featured Collection V2",
       "settings": {
         "color_scheme": "",
-        "heading": "قطع - ازرقطقم المواليد",
+        "heading": "منتجاتنا المميزة",
         "heading_size": "h1",
         "subheading": "",
         "description": "",
@@ -153,20 +153,20 @@
         "heading_d46b7k": {
           "type": "heading",
           "settings": {
-            "heading": "ازرقطقم المواليدازرقطقم",
+            "heading": "مناشف وأردية فاخرة للجميع",
             "heading_size": "h1"
           }
         },
         "text_YBFHcP": {
           "type": "text",
           "settings": {
-            "text": "<p>ازرقطقم المواليدازرقطقم المواليدازرقطقم المواليدازرقطقم المواليدازرقطقم المواليدازرقطقم المواليدازرقطقم المواليدازرقطقم المواليازرقطقم المواليدازرقطقم المواليدازرقطقم المواليدازرقطقم المواليدازرقطقم المواليدازرقطقم المواليدازرقطقم المواليدازرقطقم الموالي</p>"
+            "text": "<p>اكتشف مجموعتنا الواسعة من المناشف الفاخرة والأردية الناعمة للكبار والأطفال. جودة عالية وتصاميم عصرية تناسب جميع الأذواق.</p>"
           }
         },
         "button_h3tzhg": {
           "type": "button",
           "settings": {
-            "button_label": "ازرقطقم المواليدازرقطقم",
+            "button_label": "تسوق الآن",
             "button_link": "shopify://collections",
             "button_style_secondary": false,
             "button_label_2": "",
@@ -240,7 +240,7 @@
       "settings": {
         "color_scheme": "",
         "subheading": "",
-        "heading": "قطع - ازرقطقم المواليد",
+        "heading": "منتجاتنا المميزة",
         "heading_size": "h1",
         "description": "",
         "card_color_scheme": "",
@@ -263,7 +263,7 @@
       "name": "Featured Collection V2",
       "settings": {
         "color_scheme": "",
-        "heading": "قطع - ازرقطقم المواليد",
+        "heading": "منتجاتنا المميزة",
         "heading_size": "h1",
         "subheading": "",
         "description": "",
@@ -290,16 +290,16 @@
           "type": "tab",
           "settings": {
             "content_color_scheme": "",
-            "navigation_title": "ازرقطقم المواليد 1",
+            "navigation_title": "مناشف الحمام",
             "image": "shopify://shop_images/558085397_1408137787986533_6331988564115786581_n_f02e9e19-1369-40fe-8081-1b3c819c7131.jpg",
-            "heading": "ازرقطقم المواليد",
+            "heading": "جودة استثنائية",
             "heading_size": "h1",
             "heading_highlight_style": "none",
             "subheading": "",
-            "description": "<p>ازرقطقم المواليدازرقطقم المواليدازرقطقم المواليدازرقطقم المواليدازرقطقم المواليدازرقطقم المواليدازرقطقم المواليدازرقطقم المواليد</p>",
+            "description": "<p>تمتع بتجربة رائعة مع مجموعتنا المميزة من المناشف والأردية المصنوعة من أجود أنواع القطن الطبيعي.</p>",
             "text_size": "text-base",
             "text_alignment": "center",
-            "button_label": "ازرقطقم المواليد",
+            "button_label": "اطلع على المزيد",
             "button_link": "shopify://collections/adult-poncho",
             "button_style": "btn--primary"
           }
@@ -308,16 +308,16 @@
           "type": "tab",
           "settings": {
             "content_color_scheme": "",
-            "navigation_title": "ازرقطقم المواليد 2",
+            "navigation_title": "أردية الاستحمام",
             "image": "shopify://shop_images/575102143_1437255285074783_6097431719171318495_n_c780aa5e-3ff0-4088-9b79-1de428b7b8a2.jpg",
-            "heading": "ازرقطقم",
+            "heading": "راحة فائقة",
             "heading_size": "h1",
             "heading_highlight_style": "none",
             "subheading": "",
-            "description": "<p>ازرقطقم المواليدازرقطقم المواليدازرقطقم المواليدازرقطقم المواليدازرقطقم المواليدازرقطقم المواليدازرقطقم المواليدازرقطقم المواليد</p>",
+            "description": "<p>تمتع بتجربة رائعة مع مجموعتنا المميزة من المناشف والأردية المصنوعة من أجود أنواع القطن الطبيعي.</p>",
             "text_size": "text-base",
             "text_alignment": "center",
-            "button_label": "ازرقطقم المواليد",
+            "button_label": "اطلع على المزيد",
             "button_link": "shopify://collections/hair-towel",
             "button_style": "btn--primary"
           }
@@ -411,8 +411,8 @@
           "settings": {
             "show_image": true,
             "image": "shopify://shop_images/561300745_1406960204770958_5271908615929452820_n_d80c4d06-7c03-486d-84d0-9156ef59f643.jpg",
-            "text": "<p>ازرقطقم المواليدازرقطقم المواليدازرقطقم المواليدازرقطقم المواليدازرقطقم المواليد</p>",
-            "author": "ازرقطقم المواليد",
+            "text": "<p>منتجات رائعة وجودة ممتازة! أنصح بها بشدة لكل من يبحث عن الراحة والفخامة.</p>",
+            "author": "عميل راضٍ",
             "bio": "",
             "show_rating": true,
             "rating": 5,
@@ -426,8 +426,8 @@
           "settings": {
             "show_image": true,
             "image": "shopify://shop_images/549921795_1390022033131442_2328129394905373460_n.jpg",
-            "text": "<p>ازرقطقم المواليدازرقطقم المواليدازرقطقم المواليدازرقطقم المواليدازرقطقم المواليد</p>",
-            "author": "ازرقطقم المواليد",
+            "text": "<p>منتجات رائعة وجودة ممتازة! أنصح بها بشدة لكل من يبحث عن الراحة والفخامة.</p>",
+            "author": "عميل راضٍ",
             "bio": "",
             "show_rating": true,
             "rating": 5,
@@ -441,8 +441,8 @@
           "settings": {
             "show_image": true,
             "image": "shopify://shop_images/550661613_1392140262919619_4385173860030118830_n_bfaa379e-d4fd-4334-85f6-88afa703ebb2.jpg",
-            "text": "<p>ازرقطقم المواليدازرقطقم المواليدازرقطقم المواليدازرقطقم المواليدازرقطقم المواليد</p>",
-            "author": "ازرقطقم المواليد",
+            "text": "<p>منتجات رائعة وجودة ممتازة! أنصح بها بشدة لكل من يبحث عن الراحة والفخامة.</p>",
+            "author": "عميل راضٍ",
             "bio": "",
             "show_rating": true,
             "rating": 5,
@@ -456,8 +456,8 @@
           "settings": {
             "show_image": true,
             "image": "shopify://shop_images/558085397_1408137787986533_6331988564115786581_n_f02e9e19-1369-40fe-8081-1b3c819c7131.jpg",
-            "text": "<p>ازرقطقم المواليدازرقطقم المواليدازرقطقم المواليدازرقطقم المواليدازرقطقم المواليد</p>",
-            "author": "ازرقطقم المواليد",
+            "text": "<p>منتجات رائعة وجودة ممتازة! أنصح بها بشدة لكل من يبحث عن الراحة والفخامة.</p>",
+            "author": "عميل راضٍ",
             "bio": "",
             "show_rating": true,
             "rating": 5,
@@ -476,7 +476,7 @@
       "name": "Testimonials V2",
       "settings": {
         "color_scheme": "",
-        "heading": "ازرقطقم المواليد",
+        "heading": "آراء عملائنا",
         "heading_size": "h1",
         "subheading": "",
         "description": "",
@@ -502,12 +502,12 @@
         "show_background_image": false,
         "overlay_opacity": 30,
         "subheading": "",
-        "heading": "ازرقطقم المواليدازرقطقم المواليدازرقطقم",
+        "heading": "اشترك في نشرتنا الإخبارية",
         "heading_size": "h2",
-        "description": "<p>ازرقطقم المواليدازرقطقم المواليدازرقطقم المواليدازرقطقم المواليدازرقطقم المواليد</p>",
+        "description": "<p>احصل على أحدث العروض والمنتجات الجديدة مباشرة في بريدك الإلكتروني</p>",
         "design": "design-2",
         "form_width": 600,
-        "email_placeholder": "ازرقطقم المواليدازرق",
+        "email_placeholder": "أدخل بريدك الإلكتروني",
         "button_label": "→",
         "button_style": "btn--primary",
         "newsletter_term": "<p>By subscribing you agree to the <a href=\"#\">Terms of Use</a> & <a href=\"#\">Privacy Policy</a>.</p>",

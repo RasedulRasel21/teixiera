@@ -471,7 +471,7 @@
 {
   "name": "t:sections.header.name",
   "class": "section-header",
-  "max_blocks": 3,
+  "max_blocks": 6,
   "settings": [
     {
       "type": "select",
@@ -653,6 +653,51 @@
   "blocks": [
     {
       "type": "@app"
+    },
+    {
+      "type": "mega_menu_images",
+      "name": "Mega Menu Images",
+      "settings": [
+        {
+          "type": "text",
+          "id": "menu_handle",
+          "label": "Menu Handle",
+          "info": "Enter the menu item handle (e.g., 'towel', 'bathrobe', 'poncho'). This must match your menu item URL handle.",
+          "default": "towel"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_1",
+          "label": "Image 1"
+        },
+        {
+          "type": "text",
+          "id": "image_1_title",
+          "label": "Image 1 Title",
+          "default": "Featured"
+        },
+        {
+          "type": "url",
+          "id": "image_1_link",
+          "label": "Image 1 Link"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_2",
+          "label": "Image 2"
+        },
+        {
+          "type": "text",
+          "id": "image_2_title",
+          "label": "Image 2 Title",
+          "default": "New Arrivals"
+        },
+        {
+          "type": "url",
+          "id": "image_2_link",
+          "label": "Image 2 Link"
+        }
+      ]
     }
   ]
 }

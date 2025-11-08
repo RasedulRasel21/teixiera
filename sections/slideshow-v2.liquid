@@ -552,9 +552,11 @@
           }
         });
 
-        // Update wrapper transform
+        // Update wrapper transform with RTL support
         if (this.slidesWrapper) {
-          this.slidesWrapper.style.transform = `translateX(-${index * 100}%)`;
+          const isRTL = document.documentElement.getAttribute('dir') === 'rtl';
+          const translateValue = isRTL ? `${index * 100}%` : `-${index * 100}%`;
+          this.slidesWrapper.style.transform = `translateX(${translateValue})`;
         }
 
         // Update dots
