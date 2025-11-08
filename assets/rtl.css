@@ -302,11 +302,13 @@
 [dir="rtl"] .slider-button--prev {
   right: auto;
   left: 0;
+  transform: rotate(270deg);
 }
 
 [dir="rtl"] .slider-button--next {
   left: auto;
   right: 0;
+  transform: rotate(90deg);
 }
 
 /* Variant Picker */
