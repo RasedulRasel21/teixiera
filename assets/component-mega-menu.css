@@ -228,11 +228,11 @@
 }
 
 /* RTL version - Left to right fade */
-[lang="ar"][dir="rtl"] .mega-menu__image-item {
+[dir="rtl"] .mega-menu__image-item {
   transform: translateX(-30px);
 }
 
-[lang="ar"][dir="rtl"] .mega-menu[open] .mega-menu__image-item {
+[dir="rtl"] .mega-menu[open] .mega-menu__image-item {
   animation: fadeInLeft 0.5s ease forwards;
 }
 
