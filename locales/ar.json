@@ -259,7 +259,8 @@
       "shipping": {
         "subscription_delivery_description": {
           "prepaid_order_one_cycle_delivery_not_included": {
-            "other": "%{shipping_price} لـ %{count} من عمليات التسليم (%{per_delivery_cost})"
+            "other": "%{shipping_price} لـ %{count} من عمليات التسليم (%{per_delivery_cost})",
+            "one": "%{shipping_price} لـ %{count} تسليم"
           },
           "prepaid_order_no_cycle": {
             "one": "%{shipping_price} لـ %{count} توصيل إضافي، متبوعًا بـ %{recurring_order_shipping_price}",
@@ -310,6 +311,38 @@
           "free_for_first_n_order": {
             "one": "للطلب الأول",
             "other": "لأول %{count} طلب"
+          },
+          "free_shipping_cycles": {
+            "one": "شحن مجاني عند طلب %{count} توصيل إضافي",
+            "other": "شحن مجاني لـ %{count} من عمليات التسليم الإضافية"
+          },
+          "free_shipping_cycles_delivery_not_included": {
+            "one": "شحن مجاني لتوصيل %{count}",
+            "other": "شحن مجاني لـ %{count} من عمليات التسليم"
+          },
+          "first_n_order_free_with_cycle": {
+            "one": "شحن مجاني عند طلب %{count} توصيل إضافي، ثم %{recurring_order_shipping_price}",
+            "other": "شحن مجاني لـ %{count} من عمليات التسليم الإضافية، ثم %{recurring_order_shipping_price}"
+          },
+          "first_n_order_free_with_cycle_delivery_not_included": {
+            "one": "شحن مجاني لتوصيل %{count}، ثم %{recurring_order_shipping_price}",
+            "other": "شحن مجاني لـ %{count} من عمليات التسليم، ثم %{recurring_order_shipping_price}"
+          },
+          "max_cycles_base_shipping": {
+            "one": "%{count} توصيل إضافي مقابل %{shipping_price}",
+            "other": "%{count} المزيد من عمليات التسليم مقابل %{shipping_price} لكل منها"
+          },
+          "max_cycles_base_shipping_delivery_not_included": {
+            "one": "%{count} تسليم مقابل %{shipping_price}",
+            "other": "%{count} المزيد من عمليات التسليم مقابل %{shipping_price} لكل منها"
+          },
+          "prepaid_free_shipping_with_cycles": {
+            "one": "شحن مجاني لأول %{cycle}، متبوعًا بـ %{recurring_order_shipping_price}",
+            "other": "شحن مجاني لأول %{cycle}، متبوعًا بـ %{recurring_order_shipping_price}"
+          },
+          "prepaid_order_one_cycle": {
+            "one": "%{shipping_price} مقابل %{count} توصيل إضافي",
+            "other": "%{shipping_price} لـ %{count} من عمليات التسليم الإضافية (%{per_delivery_cost})"
           }
         },
         "one_time_purchase_shipping": "الشحن لمرة واحدة",
@@ -383,7 +416,67 @@
         "split_shipping_option_lowest_price": "أقل سعر",
         "split_shipping_option_fastest": "الأسرع",
         "split_shipping_option_recommended": "مُستَحسَن",
-        "split_shipping_option_custom": "مخصص"
+        "split_shipping_option_custom": "مخصص",
+        "title": "شحن",
+        "delivery_title": "توصيل",
+        "shipping_method_title": "طريقة الشحن",
+        "shipping_method_rollup_accessibility_label": "خيارات طريقة الشحن",
+        "shipping_method_one_time_purchase_group_title": "شراء لمرة واحدة",
+        "shipping_method_first_shipment_group_title": {
+          "one": "الشحنة الأولى",
+          "other": "الشحنات الأولى"
+        },
+        "shipping_method_subscription_group_title": "الاشتراك",
+        "shipping_method_recurring_shipments_group_title": {
+          "one": "الشحنة المتكررة",
+          "other": "الشحنات المتكررة"
+        },
+        "subscription_shipping": "شحن الاشتراك",
+        "subscription_local_delivery": "الاشتراك في التوصيل المحلي",
+        "subscription_pickup": "استلام الاشتراك",
+        "waiting_on_rate_notice": "الحصول على أسعار الشحن المتاحة…",
+        "waiting_on_pickup_location_notice": "الحصول على مواقع الاستلام المتاحة…",
+        "no_rates_for_cart_or_destination_notice": "لا توجد طرق شحن متاحة لعربة التسوق الخاصة بك أو عنوانك",
+        "no_pickup_location_notice": "على الأقل أحد منتجاتك غير متاح للاستلام",
+        "no_rates_for_country_notice": "لم يتم العثور على أسعار الشحن لهذا العنوان.",
+        "no_rates_contact_notice": "اتصل بنا لمزيد من المعلومات",
+        "free_rate_label": "حر",
+        "cheapest_rate_label": "أرخص",
+        "please_enter_your_shipping_information_notice": "الرجاء إدخال معلومات الشحن الخاصة بك.",
+        "estimated_delivery_date": {
+          "one": "%{count} يوم عمل",
+          "other": "%{count} أيام عمل"
+        },
+        "estimated_delivery_date_range": "%{minimum} إلى %{maximum} أيام عمل",
+        "delivery_date_range": "%{الحد الأدنى للوقت}–%{الحد الأقصى للوقت}",
+        "estimated_delivery_time": "التسليم المتوقع %{time}",
+        "estimated_delivery_time_range": "مدة التسليم المتوقعة %{min_time}–%{max_time}",
+        "delivery_today": "التسليم في نفس اليوم %{time}",
+        "delivery_tomorrow": "التسليم في اليوم التالي %{time}",
+        "two_day_delivery": "التسليم خلال يومين %{time}",
+        "delivery": "موعد التسليم}",
+        "arrives_time": "يصل %{time}",
+        "arrives_time_range": "يصل %{min_time}–%{max_time}",
+        "estimated_time": "الوقت المقدر %{time}",
+        "estimated_time_range": "تقدير %{min_time}–%{max_time}",
+        "default_description": "يتم الشحن في يوم عمل واحد",
+        "unbranded_default_description": "جاهز للشحن",
+        "shipping_line_phone_label": "رقم الهاتف المحمول (مطلوب)",
+        "shipping_line_phone": "يمكن أن يستخدم البريد الخاص بك هذا الرقم للتواصل معك.",
+        "shipping_line_delivery_phone_label": "رقم الهاتف المحمول",
+        "shipping_line_delivery_phone": "قد يتم التواصل معك لتزويدك بالتحديثات المتعلقة بالتسليم الخاص بك.",
+        "optional_shipping_line_delivery_instructions_label": "تعليمات التسليم (اختياري)",
+        "shipping_line_delivery_instructions": "أدخل المعلومات الضرورية مثل رموز الباب أو تعليمات التسليم.",
+        "other_method": {
+          "zero": "لا توجد طرق أخرى متاحة",
+          "one": "%{count} طريقة أخرى متاحة في",
+          "other": "%{count} طرق أخرى متاحة تبدأ من"
+        },
+        "shipping_rate_discounted_amount": "كان: %{original_amount}. الآن: %{amount}",
+        "local_delivery": "التوصيل المحلي",
+        "prime_not_available": {
+          "default": "خدمة التوصيل المميزة غير متاحة لطلبك. تم تحديث خيارات الشحن."
+        }
       },
       "localized_fields": {
         "additional_information": {
@@ -762,6 +855,50 @@
         "address_zip_contains_mathematical_symbols": "لا يمكن أن يحتوي الرمز البريدي على رموز رياضية",
         "address_generic_blank": "حقل مطلوب",
         "address_generic_invalid": "إدخال غير صالح"
+      },
+      "order_summary": {
+        "payment_terms_totals": {
+          "due_today_next": "المستحق اليوم",
+          "due_later": "الإجمالي المستحق %{due_at}",
+          "due_on_fulfillment": "الإجمالي المستحق عند التنفيذ",
+          "due_on_fulfillment_next": "مستحق عند الوفاء",
+          "due_on_receipt": "الإجمالي المستحق عند الاستلام",
+          "due_later_checkout_to_draft": "الإجمالي المستحق لاحقًا",
+          "total_paid": "إجمالي المبلغ المدفوع"
+        },
+        "maximum_discount_code_limit_reached": "لقد وصلت إلى الحد الأقصى لعدد أكواد الخصم. يُرجى إزالة أي كود حالي لاستخدام <strong style=\"text-transform:uppercase\">%{code}</strong> .",
+        "discount_code_application_failed": "<strong style=\"text-transform:uppercase\">%{code}</strong> لا يعمل حاليًا. تواصل معنا للمساعدة.",
+        "due_on_fulfillment": "مستحق عند الوفاء",
+        "subscriptions": "الاشتراكات",
+        "duties_label": "الواجبات",
+        "duties_and_taxes_label": "الرسوم والضرائب",
+        "error_duties_tooltip": "يتم شحن هذا الطلب من بلد آخر، لذلك قد يتم فرض الرسوم والضرائب عند التسليم.",
+        "may_be_charged_on_delivery": "قد يتم فرض رسوم عند التسليم",
+        "total_updated_label_with_price": "السعر الإجمالي المحدث: %{totalPrice}",
+        "updated_shipping_method": "تم تحديث طريقة الشحن: %{shipping_method}",
+        "recurring_payments": "المدفوعات المتكررة",
+        "recurring_total_multiple_label": "يتضمن هذا الطلب رسومًا متكررة لعناصر متعددة.",
+        "deferred_total_due_date_label": "الإجمالي المستحق {{date}}",
+        "deferred_total_due_date_label_next": "تاريخ الاستحقاق %{date}",
+        "full_price": "السعر الكامل: %{price}",
+        "custom_discount": "خصم مخصص",
+        "expand_component_information": {
+          "one": "إظهار %{count} عنصر",
+          "other": "إظهار %{count} عنصر"
+        },
+        "collapse_component_information": {
+          "one": "إخفاء %{count} عنصر",
+          "other": "إخفاء %{count} من العناصر"
+        },
+        "component_quantity_title": "%{الكمية} × %{عنوان المنتج}",
+        "discount_discovery": {
+          "add_code": "إضافة خصم",
+          "merchandise_quantity_label": {
+            "one": "%{count} عنصر",
+            "other": "%{count} عناصر"
+          }
+        },
+        "alternative_payment_currency_total": "تم تحصيل الرسوم كـ %{amount_due}"
       }
     },
     "pagination": {
@@ -1097,6 +1234,138 @@
             "last_30_days": "آخر 30 يومًا"
           }
         }
+      }
+    },
+    "payment_methods": {
+      "title": "طرق الدفع",
+      "add_payment_method_button": "إضافة طريقة الدفع",
+      "add_payment_method_dropdown": {
+        "bank_account_consent": "من خلال إضافة طريقة دفع، فإنك تسمح بخصم الأموال من بطاقتك أو حسابك المصرفي مقابل عمليات الشراء المستقبلية التي توافق عليها، حتى تقوم بإلغاء العملية."
+      },
+      "bank_account": {
+        "loading_accessibility_message": "جاري تحميل زر حساب البنك",
+        "iframe_title_accessibility_label": "إعداد حساب مصرفي",
+        "display_name": "حساب بنكي",
+        "generic_error": "تعذر إضافة الحساب البنكي. حاول مرة أخرى لاحقًا."
+      },
+      "add_payment_method_banner": "أضف طريقة الدفع لتسريع عملية الدفع أو الحصول على خدمات معتمدة مسبقًا",
+      "no_payment_methods_banner": "لم تتم إضافة طرق الدفع",
+      "edit_payment_method_button_accessibility_label": "تعديل {{paymentMethodName}} الذي ينتهي بـ {{lastDigits}}",
+      "edit_payment_method_brand_button_accessibility_label": "تعديل {{paymentMethodName}}",
+      "delete_payment_method_button": "يمسح",
+      "delete_payment_method_button_accessibility_label": "حذف {{paymentMethodName}}",
+      "back_button": "خلف",
+      "back_button_accessibility_label": "العودة إلى {{paymentMethodStepTitle}}",
+      "default": "تقصير",
+      "generic_card": "بطاقة",
+      "expiration_warning_button_accessibility_label": "إظهار تحذير انتهاء الصلاحية لـ {{paymentMethodName}} الذي ينتهي بـ {{lastDigits}}",
+      "expires_soon": "هذه البطاقة ستنتهي صلاحيتها قريبًا",
+      "expired": "هذه البطاقة منتهية الصلاحية",
+      "card_update_consent": "سيتم حفظ طريقة الدفع هذه للمشتريات المستقبلية.",
+      "card_update_consent_subscriptions": "سيتم حفظ طريقة الدفع هذه للمشتريات المستقبلية ويمكن استخدامها لأي عملية شراء متكررة أو مؤجلة.",
+      "digital_wallet_title": "المحفظة الرقمية",
+      "credit_or_debit_card_title": "بطاقة الائتمان أو الخصم",
+      "google_pay": {
+        "iframe_title_accessibility_label": "إضافة طريقة الدفع Google Pay",
+        "loading_accessibility_message": "تحميل Google Pay",
+        "loading": "تحميل Google Pay",
+        "errors": {
+          "generic": "حدثت مشكلة في Google Pay. حاول مرة أخرى أو استخدم طريقة دفع أخرى.",
+          "missing_billing_address": "يتطلب Google Pay عنوان إرسال فواتير. يُرجى إضافته إلى حسابك."
+        }
+      },
+      "pay_pal": {
+        "iframe_title_accessibility_label": "إضافة طريقة الدفع PayPal",
+        "loading_accessibility_message": "تحميل باي بال",
+        "errors": {
+          "generic": "حدثت مشكلة في باي بال. حاول مرة أخرى أو استخدم طريقة دفع أخرى."
+        }
+      },
+      "apple_pay": {
+        "loading": "تحميل Apple Pay",
+        "errors": {
+          "generic": "حدثت مشكلة في Apple Pay. حاول مرة أخرى أو استخدم طريقة دفع أخرى.",
+          "not_available": "Apple Pay غير متاح على هذا الجهاز.",
+          "missing_billing_address": "يتطلب Apple Pay عنوان إرسال فواتير. يُرجى إضافته إلى حسابك."
+        }
+      },
+      "store_credit": {
+        "label": "رصيد المتجر",
+        "accesibility_label": "رصيد المتجر - {{formattedBalance}}",
+        "expirable_amounts_button": "عرض المبالغ القابلة للانتهاء",
+        "expirable_amounts_label": "المبالغ القابلة للانتهاء",
+        "details_modal": {
+          "title": "رصيد متجر قابل للانتهاء",
+          "balance_label": "توازن",
+          "expiration_date_label": "تاريخ انتهاء الصلاحية",
+          "amount_label": "كمية",
+          "date_label": "تاريخ",
+          "event_label": "حدث",
+          "events": {
+            "adjustment": "تعديل",
+            "order_payment": "طلب الدفع",
+            "order_refund": "استرداد الطلب",
+            "payment_failure": "فشل الدفع",
+            "payment_returned": "تم إرجاع الدفع",
+            "order_cancellation": "إلغاء الطلب",
+            "tax_finalization": "إتمام الضرائب"
+          },
+          "expirable_balance_info": "سوف تنتهي صلاحية بعض رصيدك في تاريخ مستقبلي",
+          "expirable_amount_label": "إجمالي المبلغ القابل للانتهاء",
+          "expirable_amounts_info": "يتم تطبيق المبالغ التي تنتهي صلاحيتها قبل ذلك أولاً عند الخروج",
+          "expirable_amounts_button": "منظر",
+          "expired_amounts_button": "عرض المبالغ المنتهية الصلاحية",
+          "pagination": {
+            "load_more_label": "تحميل المزيد",
+            "load_more_accessibility_label": "تحميل المزيد من المبالغ القابلة للانتهاء"
+          }
+        }
+      },
+      "payment_details": {
+        "title": "تفاصيل طريقة الدفع",
+        "credit_card_details_accessibility_label": "تنتهي بـ {{lastDigits}}",
+        "billing_title": "عنوان الفاتورة",
+        "card_info_title": "معلومات البطاقة",
+        "payment_method_expiring_on": "تنتهي صلاحيتها في {{expiryDate}}",
+        "payment_method_expired_on": "انتهت صلاحيتها في {{expiryDate}}",
+        "preauthorized_payments": "المدفوعات المصرح بها مسبقًا",
+        "close_payment_modal": "يغلق",
+        "close_payment_modal_accessibility_label": "إغلاق تفاصيل طريقة الدفع",
+        "payment_method_not_found_error": "غير قادر على العثور على طريقة الدفع",
+        "payment_details_loading": "جاري تحميل تفاصيل طريقة الدفع",
+        "pre_authorized_payments": "المدفوعات المصرح بها مسبقًا",
+        "total_amount_of_subscription_line_items_left": "و {{total}} أكثر",
+        "total_amount_of_subscription_line_items_left_accessibility_label": "إجمالي {{totalItems}} عنصرًا، يتم عرض {{totalItemsToDisplay}} عنصرًا.",
+        "next_payment_due": "الدفعة التالية مستحقة {{dueDateInMonthDayYear}}",
+        "edit_payment_method_button": "يحرر",
+        "edit_payment_method_button_accessibility_label": "تعديل طريقة الدفع التي تنتهي بـ {{lastDigits}}",
+        "loading_shop_pay": "تحميل Shop Pay",
+        "invalid_payment_method": "طريقة الدفع غير صالحة",
+        "invalid_payment_method_message": "استخدم بطاقة ائتمان جديدة لمواصلة تلقي الطلبات القادمة.",
+        "replace_payment_method": "استبدال طريقة الدفع",
+        "checkout_card_banner": "طريقة الدفع هذه مخصصة للمدفوعات المُصرّح بها مسبقًا فقط. لن تظهر عند إتمام عملية الشراء إذا كنت قد سجّلت دخولك إلى هذا المتجر. ",
+        "default_checkbox": "تعيين كإعداد افتراضي",
+        "default_checkbox_accessibility_label": "تعيين طريقة الدفع هذه كطريقة افتراضية",
+        "replace_payment_method_button": "يستبدل"
+      },
+      "edit_payment_method": {
+        "title": "تعديل طريقة الدفع",
+        "save_payment_method_button": "يحفظ",
+        "cancel_edit_payment_method_button": "يلغي",
+        "payment_method_updated_toast": "تم تحديث طريقة الدفع",
+        "billing_address": "عنوان الفاتورة",
+        "billing_address_add_new": "إضافة جديد",
+        "billing_address_choose_from_list": "اختر من القائمة",
+        "future_purchases_notice": "سيتم حفظ طريقة الدفع هذه للمشتريات المستقبلية.",
+        "generic_error": "حدثت مشكلة أثناء التحديث. يُرجى المحاولة مرة أخرى."
+      },
+      "update_payment_method": {
+        "title": "تحديث طريقة الدفع",
+        "button_title": "تحديث",
+        "billing_address": "عنوان الفاتورة",
+        "disclaimer": "سيتم حفظ طريقة الدفع هذه للمشتريات المستقبلية ويمكن استخدامها لأي عملية شراء متكررة أو مؤجلة.",
+        "error_message": "غير قادر على تحديث طريقة الدفع",
+        "current": "حاضِر"
       }
     }
   }
