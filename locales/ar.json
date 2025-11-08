@@ -1031,12 +1031,17 @@
           "error": {
             "refresh": "ينعش",
             "close": "يغلق",
-            "sandbox_error": "لقد حدث خطأ ما"
+            "sandbox_error": "لقد حدث خطأ ما",
+            "web_component_error": "حدثت مشكلة أثناء تحميل هذه الصفحة"
           }
         },
         "store_credit": {
           "buying_gift_card": "لا يمكنك استخدام رصيد المتجر لشراء بطاقة هدايا",
-          "no_fixed_selling_plans": "لا يمكنك استخدام رصيد المتجر مع خيارات الشراء المؤجلة"
+          "no_fixed_selling_plans": "لا يمكنك استخدام رصيد المتجر مع خيارات الشراء المؤجلة",
+          "label": "رصيد المتجر",
+          "apply_label": "تطبيق رصيد المتجر",
+          "add_label": "إضافة رصيد المتجر",
+          "manage_label": "إدارة رصيد المتجر"
         },
         "clear": "واضح",
         "billing_must_match_shipping_notice": "يجب أن يتطابق عنوان إرسال الفاتورة الخاص بطريقة الدفع الخاصة بك مع عنوان الشحن.",
@@ -1175,7 +1180,117 @@
           "label": "رقم الطلب (اختياري)"
         },
         "alternative_payment_currency_total_notice": "ملاحظة: سيتم تحصيل رسوم %{amount_due} منك.",
-        "alternative_payment_currency_total_manual_payment_notice": "ملاحظة: إجمالي المبلغ المحول هو %{amount_due}."
+        "alternative_payment_currency_total_manual_payment_notice": "ملاحظة: إجمالي المبلغ المحول هو %{amount_due}.",
+        "saved_by_payment_method": "تم الحفظ بواسطة %{payment_method}",
+        "pay_with_payment_method": "ادفع باستخدام %{payment_method}",
+        "different_credit_card_label": "استخدم بطاقة ائتمان مختلفة",
+        "same_billing_address_label": "نفس عنوان الشحن",
+        "different_billing_address_label": "استخدم عنوان إرسال فواتير مختلفًا",
+        "billing_address_associated_with_mandate": "استخدم العنوان المرتبط بطريقة الدفع",
+        "billing_address_associated_with_mandate_info": "إذا كنت ترغب في تغيير عنوان إرسال الفواتير الخاص بك، فيرجى إزالة تفاصيل بطاقة الائتمان الخاصة بك وإعادة إدخالها",
+        "free_order_notice_html": "طلبك <strong>مجاني</strong> . لا يتطلب أي دفع.",
+        "express_checkout_free_order": "لن يتم تحصيل أي رسوم منك مقابل الطلب المجاني",
+        "order_covered_by_gift_cards_notice": {
+          "one": "سيتم تغطية طلبك بواسطة بطاقة الهدية الخاصة بك.",
+          "other": "سيتم تغطية طلبك بواسطة بطاقات الهدايا الخاصة بك."
+        },
+        "offsite_gateway_redirect_hint": "بعد النقر على \"%{button_label}\"، سيتم إعادة توجيهك إلى %{gateway_label} لإكمال عملية الشراء بشكل آمن.",
+        "offsite_gateway_review_page_redirect_hint": "بعد مراجعة طلبك، سيتم إعادة توجيهك إلى %{gateway_label} لإكمال عملية الشراء بشكل آمن.",
+        "offsite_gateway_redirect_hint_multi_currency_html": "%{gateway_label} إجمالي %{total_shop_price}",
+        "offsite_gateway_redirect_hint_no_button_label": "بعد الاستمرار، سيتم إعادة توجيهك إلى %{gateway_label} لإكمال عملية الشراء بشكل آمن.",
+        "receiver_payment_experience_hint": "بعد إتمام طلبك، ستصلك تفاصيل الدفع. يمكنك الدفع عبر Multibanco أو عبر الإنترنت خلال %{due_days} يوم.",
+        "billing_address_title": "عنوان الفاتورة",
+        "billing_address_rollup_accessibility_label": "خيارات عنوان الفاتورة",
+        "billing_address_description": "حدد العنوان الذي يتطابق مع بطاقتك أو طريقة الدفع الخاصة بك.",
+        "billing_address_description_no_shipping_address": "أدخل العنوان الذي يتطابق مع بطاقتك أو طريقة الدفع الخاصة بك.",
+        "no_js_credit_card_fields_redirect_hint": "سيتم إعادة توجيهك لإضافة معلومات الدفع الخاصة بك.",
+        "card_fields_container_prefix": "حاوية ميدانية لـ:",
+        "card_fields_unavailable_html": {
+          "one": "لا تتوفر إمكانية الدفع ببطاقات الائتمان والخصم في الوقت الحالي.<br> <a href=\"%{current_url}\">قم بتحديث هذه الصفحة</a> أو حاول مرة أخرى لاحقًا.",
+          "other": "لا تتوفر إمكانية الدفع ببطاقات الائتمان والخصم في الوقت الحالي.<br> <a href=\"%{current_url}\">قم بتحديث هذه الصفحة</a> أو جرب طريقة دفع أخرى."
+        },
+        "card_fields_processing_error": "حدثت مشكلة أثناء معالجة الدفعة. حاول تحديث هذه الصفحة أو التحقق من اتصالك بالإنترنت.",
+        "technical_error": "لا يمكن معالجة المدفوعات حاليًا بسبب مشكلة فنية. حاول مرة أخرى بعد بضع دقائق.",
+        "no_method_error": "لا يمكن لهذا المتجر قبول المدفوعات في الوقت الحالي.",
+        "not_configured_error": "لا يمكن لهذا المتجر قبول المدفوعات في الوقت الحالي.",
+        "missing_credit_card_error": "أدخل تفاصيل بطاقتك لإكمال الدفع",
+        "shop_pay_ideal_unavailable_error": "خدمة iDEAL غير متوفرة لهذا الطلب. اختر طريقة دفع أخرى.",
+        "payment_method_not_available_for_shipping_address_error": "طريقة الدفع غير متاحة لعنوان الشحن المحدد. اختر طريقة دفع أخرى.",
+        "billing_address_not_supported_for_payment_method_error": "طريقة الدفع هذه غير متاحة لعنوانك وعملتك. يُرجى تجربة طريقة دفع أخرى.",
+        "generic_incorrect_card_info": "لم يتم التحقق من بيانات الدفع الخاصة بك. تحقق من بيانات بطاقتك وحاول مرة أخرى.",
+        "sofort_label": "تحويل بنكي سوفورت",
+        "paypal_label": "باي بال",
+        "paypal_wallet_label": "محفظة باي بال",
+        "shop_pay_installments_label": "متجر دفع الأقساط",
+        "paypal_modal": {
+          "order_contains_subscriptions": "الاشتراك",
+          "order_contains_fixed_selling_plans": "قد لا يشمل المبلغ الإجمالي الضرائب والشحن والرسوم المؤجلة وبعض الخصومات. تابع عملية الدفع لمعرفة المبلغ المستحق اليوم."
+        },
+        "klarna_label": "كلارنا",
+        "klarna_pay_later_label": "ادفع لاحقًا مع Klarna",
+        "klarna_pay_now_label": "ادفع الآن مع Klarna",
+        "bancontact_label": "بانكونتاكت",
+        "giropay_label": "جيروباي",
+        "multibanco_label": "بنك متعدد",
+        "klarna_slice_it_label": "التمويل مع كلارنا",
+        "ideal_label": "مثالي",
+        "bank_picker_label": "بنك",
+        "afterpay_label": "الدفع لاحقًا",
+        "cashapppay_label": "تطبيق الدفع النقدي",
+        "przelewy24_label": "برزيلوي24",
+        "blik_label": "بليك",
+        "twint_label": "توينت",
+        "mobilepay_label": "الدفع عبر الهاتف المحمول",
+        "swish_label": "حفيف",
+        "vipps_label": "فيبس",
+        "grabpay_label": "جراب باي",
+        "kcp_creditcard_label": "بطاقة ائتمان KCP",
+        "usdc_label": "بنك الاحتياطي الفيدرالي الأمريكي",
+        "usdc_cashback_title": "استرداد نقدي بنسبة 1%",
+        "usdc_cashback_additional_info": "احصل على 1% مرة أخرى في USDC مباشرة في محفظتك.",
+        "usdc_cashback_terms": "تطبق الشروط",
+        "purchase_options_card_update_agreement_label_html": "من خلال تحديث طريقة الدفع الخاصة بك، فإنك توافق على سداد المدفوعات لأي عملية شراء متكررة أو مؤجلة وفقًا <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{cancellation_policy}\" href=\"%{policy_href}\">لسياسة الإلغاء</a> الخاصة بهذا المتجر.",
+        "subscription_card_update_agreement_label": "سيؤدي تغيير طريقة الدفع إلى تحديث اشتراكك والمدفوعات المتكررة المستقبلية.",
+        "subscription_agreement_label": "عنصر واحد أو أكثر في سلة التسوق لديك هو عملية شراء مؤجلة أو اشتراك. بمواصلة الدفع، فإنك توافق على خصم المبلغ تلقائيًا من طريقة الدفع الخاصة بك بالسعر والتكرار المذكورين في هذه الصفحة حتى انتهاء فترة السداد أو إلغائها. جميع عمليات الإلغاء تخضع لرسوم %{cancelled}.",
+        "subscription_agreement_cancelled": "سياسة الإلغاء",
+        "subscription_heading": "اتفاقية الاشتراك",
+        "subscription_agreement_label_html": "أُدرك أنني أوافق على اشتراك. سيتم تجديده بالسعر والتردد المذكورين حتى ينتهي أو ينتهي.\n <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">تم إلغاء</a> .\n",
+        "purchase_options_agreement_label": "عنصر واحد أو أكثر في سلة التسوق الخاصة بك هو عملية شراء مؤجلة أو متكررة. بمواصلة الدفع، فإنك توافق على خصم المبلغ تلقائيًا من طريقة الدفع الخاصة بك بالسعر والتكرار المذكورين في هذه الصفحة حتى انتهاء فترة السداد أو إلغائها. جميع عمليات الإلغاء تخضع لـ %{cancellation_policy_label}.",
+        "purchase_options_agreement_label_html": "أُدرك أن أحد العناصر أو أكثر في سلة التسوق الخاصة بي هو عملية شراء مؤجلة أو متكررة. بالمتابعة، أوافق على \n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">سياسة الإلغاء</a>\n وأسمح لك بتحصيل رسوم من طريقة الدفع الخاصة بي بالأسعار والتردد والتاريخ المدرجة في هذه الصفحة حتى\n يتم تنفيذ الطلب أو إلغاؤه إذا سمح بذلك.\n",
+        "purchase_options_agreement_label_wallets": "من خلال الاستمرار في الدفع، فإنك توافق على الرسوم المستقبلية المدرجة في هذه الصفحة وسياسة الإلغاء.",
+        "change_currency_section_description": "حدد خيار العملة",
+        "no_real_orders_dev_store": "لا يمكن لهذا المتجر قبول الطلبات الحقيقية أو المدفوعات الحقيقية.",
+        "waiting_on_payment_methods": "الحصول على طرق الدفع المتاحة...",
+        "apple_pay_payment_error": "تعذّر إكمال عملية الدفع. حاول مجددًا أو استخدم طريقة دفع أخرى.",
+        "taxes_not_included": "الضرائب غير مشمولة",
+        "no_taxes_banner_content": "لن تُفرض ضرائب على هذا الطلب. بعد تحصيل الدفعة، لن تتمكن من إضافة الضرائب.",
+        "paypal": {
+          "connect": "انقر هنا لتوصيل حساب PayPal الخاص بك"
+        },
+        "apple": {
+          "connect": "انقر هنا لتوصيل حساب Apple Pay الخاص بك",
+          "not_available": "خدمة Apple Pay غير متوفرة في هذا المتصفح. لربط حساب Apple Pay الخاص بك، ستحتاج إلى استخدام Safari على جهاز Apple."
+        },
+        "google": {
+          "connect": "انقر للاتصال بحساب Google Pay الخاص بك",
+          "error_authorizing": "خطأ في تفويض الدفع"
+        },
+        "account_connected": "تم ربط الحساب.",
+        "mor_disclaimer_html": "من خلال النقر أدناه وإكمال طلبك، فإنك توافق على شراء العنصر (العناصر) الخاص بك من Global-e كتاجر مسجل\n لهذه المعاملة، وفقًا <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{mor_terms}\" href=\"%{terms_href}\">لشروط وأحكام</a> Global-e\n <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{privacy_policy}\" href=\"%{policy_href}\">وسياسة الخصوصية</a> . Global-e هي شركة دولية\n مزود خدمة الإيفاء إلى %{shop_name}\n",
+        "pending_payment": {
+          "due_notice": "يجب أن يتم سداد دفعتك البالغة %{amount_due} في %{due_date}.",
+          "multibanco": {
+            "buyer_action_info": "يجب عليك سداد المبلغ %{amount_due}.",
+            "instruction_html": "سدد دفعتك عبر Multibanco أو عبر الإنترنت باستخدام التفاصيل أدناه. للاستفسارات أو لتحديث تفاصيل الدفع، يُرجى التواصل معنا.",
+            "entity": "كيان",
+            "reference": "مرجع",
+            "amount": "كمية",
+            "find_nearest_atm": "ابحث عن أقرب جهاز صراف آلي"
+          }
+        },
+        "update_payment_method": "تحديث طريقة الدفع",
+        "order_covered_by_store_credit_notice": "سيتم تغطية طلبك من خلال رصيد المتجر الخاص بك.",
+        "order_covered_by_redeemables_notice": "تم تغطية طلبك."
       },
       "billing": {
         "billing_address_title": "مشروع قانون ل",
@@ -2180,11 +2295,25 @@
             "delivery_guaranteed_by_label": "التسليم مضمون بحلول {{date}}",
             "shop_cash_claim": {
               "may_be_eligible_label": "يضمن لك Shop Promise توصيلًا سريعًا وموثوقًا. اطلب استرداد النقود من Shop Cash إذا تأخر طلبك.",
-              "may_be_eligible_not_authorized_label": "قد تكون مؤهلاً للحصول على رصيد نقدي من المتجر لأن هذا الطلب وصل متأخرًا. سجّل الدخول لعرض التفاصيل."
+              "may_be_eligible_not_authorized_label": "قد تكون مؤهلاً للحصول على رصيد نقدي من المتجر لأن هذا الطلب وصل متأخرًا. سجّل الدخول لعرض التفاصيل.",
+              "redeemed_label": "لقد قمت بالفعل بالمطالبة بـ Shop Cash لأن هذا الطلب وصل متأخرًا.",
+              "expired_label": "لا يحق لهذا الطلب المطالبة بالتسليم المتأخر لأن ضمان الـ30 يومًا قد انتهى.",
+              "no_shop_cash_label": "لا يحق لهذا الطلب المطالبة بالتسليم المتأخر لأنه لم يتم دفعه عبر Shop Pay.",
+              "no_longer_guaranteed_label": "لم تعد هذه العناصر مدعومة بضمان التسليم.",
+              "claim_shop_cash_title": "امسح ضوئيًا للمطالبة {{amount}} في Shop Cash",
+              "claim_shop_cash_description": "بإمكانك استخدام رصيدك النقدي في المتجر في عمليات الشراء المستقبلية في تطبيق المتجر."
             }
           }
         }
-      }
+      },
+      "status_mark_as_delivered": "وضع علامة على أنه تم التسليم",
+      "fulfillment_status_title": "حالة الإنجاز: {{status}}",
+      "buy_again": "اشتري مرة أخرى",
+      "buy_again_accessibility_label": "قم بالشراء مرة أخرى للطلب {{orderId}}",
+      "manage": "يدير",
+      "manage_accessiblity_label": "إدارة الطلب {{orderId}}",
+      "group_title_label": "جزء من: {{groupTitle}}",
+      "group_title_label_with_parent": "لـ: {{groupTitle}}"
     },
     "addresses": {
       "billing_address_dropdown_placeholder": "عنوان الفاتورة"
@@ -2375,6 +2504,126 @@
       "expand_label": "توسيع شريط الإعلان",
       "collapse_label": "انهيار شريط الإعلان",
       "close_label": "إغلاق شريط الإعلان"
+    },
+    "order_details": {
+      "shipment_timeline": {
+        "expand_events_label": "إظهار التفاصيل",
+        "expand_events_accessibility_label": "إظهار تفاصيل شحن الطلب",
+        "hide_events_label": "إخفاء التفاصيل",
+        "hide_events_accessibility_label": "إخفاء تفاصيل شحن الطلب"
+      },
+      "addresses_section_title": "الفواتير والشحن",
+      "order_details": "تفاصيل الطلب",
+      "order_details_skeleton_accessibility_label": "قم بتسجيل الدخول لعرض كافة تفاصيل الطلب.",
+      "billing_address": "عنوان الفاتورة",
+      "card_ending_with": "تنتهي بـ {{lastDigits}}",
+      "contact": "اتصال",
+      "contact_information": "معلومات الاتصال",
+      "company": "شركة",
+      "company_and_location": "الشركة والموقع",
+      "fully_refunded_label": "تم استرداد المبلغ",
+      "group_title_label": "جزء من: {{groupTitle}}",
+      "group_title_label_with_parent": "لـ: {{groupTitle}}",
+      "view_controls": {
+        "gallery": "معرض الصور",
+        "list": "قائمة"
+      },
+      "grouped_view_components": {
+        "expand_line_items": "عرض {{count}} عنصرًا",
+        "collapse_line_items": "إخفاء {{count}} عنصرًا",
+        "line_item_summary_list_accessibility_label": "العناصر الموجودة في حزمة {{productTitle}}"
+      },
+      "discount": "تخفيض",
+      "hide_items": "إخفاء العناصر",
+      "loading": "تحميل تفاصيل الطلب",
+      "loading_finished_accessibility_message": "تم تحميل تفاصيل الطلب",
+      "location": "موقع",
+      "image_gallery": {
+        "next": "إظهار العناصر التالية",
+        "previous": "إظهار العناصر السابقة",
+        "load_more_items": {
+          "one": "تحميل {{count}} عناصر إضافية",
+          "other": "تحميل {{count}} عناصر إضافية"
+        }
+      },
+      "mobile_summary_toggle_button": {
+        "open": "إظهار ملخص الطلب",
+        "closed": "إخفاء ملخص الطلب"
+      },
+      "no_data": "لا أحد",
+      "no_data_provided_accessibility_label": "{{fieldName}} فارغ",
+      "not_applicable": "غير متوفر",
+      "paid_amount": "مدفوع",
+      "partially_refunded_label": "تم استرداد المبلغ جزئيًا",
+      "payment": {
+        "status_in_review": "الدفع مستحق بعد المراجعة",
+        "status_unpaid": "الدفع مستحق في {{date}}",
+        "title": "قسط",
+        "payment_type": {
+          "gift_card": "بطاقة هدية",
+          "store_credit": "رصيد المتجر",
+          "money_order": "حوالة بريدية",
+          "cash_on_delivery": "الدفع عند الاستلام (COD)",
+          "bank_deposit": "وديعة بنكية",
+          "manual": "يدوي"
+        },
+        "card_payment_details": "تنتهي بـ {{lastDigits}} - {{formattedTransactionAmount}}",
+        "gift_card_payment_details": "تنتهي بـ {{lastDigits}} - {{formattedTransactionAmount}}",
+        "store_credit_payment_details": "رصيد المتجر - {{formattedTransactionAmount}}",
+        "shop_pay_installments": {
+          "paid_in_installments": "تم الدفع بأقساط Shop Pay",
+          "view_schedule": "عرض الجدول الزمني"
+        },
+        "manual_payment_methods": {
+          "money_order": "حوالة بريدية - {{formattedTransactionAmount}}",
+          "cash_on_delivery": "الدفع عند الاستلام (COD) - {{formattedTransactionAmount}}",
+          "bank_deposit": "إيداع بنكي - {{formattedTransactionAmount}}",
+          "manual": "دليل - {{formattedTransactionAmount}}"
+        },
+        "transactions": {
+          "show_all": "إظهار الكل",
+          "show_less": "إظهار أقل",
+          "details": "تفاصيل",
+          "payment_details": "تفاصيل الدفع"
+        },
+        "emv_details": {
+          "auth": "المصادقة:",
+          "aid": "يساعد:",
+          "source": "مصدر:"
+        }
+      },
+      "paid_with_shop_pay_installments_card": {
+        "paid_with_shop_pay_installments": "تم الدفع عن طريق أقساط Shop Pay",
+        "description": "ابق على اطلاع بجدول الدفع الخاص بك من خلال التذكيرات في تطبيق المتجر.",
+        "payment_reminders_button": "احصل على تذكيرات الدفع",
+        "desktop_qr_code_content": {
+          "title": "مسح للتذكيرات",
+          "description": "احصل على تذكيرات بأقساطك مع المتجر."
+        }
+      },
+      "refunded_amount": "تم استرداد المبلغ",
+      "request_return_failed": "حدثت مشكلة أثناء معالجة طلبك. يُرجى المحاولة مرة أخرى.",
+      "login_card": {
+        "resend_link_and_login": "لعرض تفاصيل طلبك، قم بتسجيل الدخول أو إرسال رابط جديد إلى البريد الإلكتروني أو رقم الهاتف المستخدم عند الدفع.",
+        "resend_link_only": "لعرض تفاصيل طلبك، أرسل رابطًا جديدًا إلى البريد الإلكتروني أو رقم الهاتف المستخدم عند الدفع.",
+        "log_in": "تسجيل الدخول",
+        "resend_link": "إرسال رابط جديد",
+        "link_expired": "انتهت صلاحية الرابط"
+      },
+      "remaining_amount": "متبقي",
+      "marketing_section_title": "الأخبار والعروض",
+      "marketing_description": "ستصلك رسائل تسويقية عبر البريد الإلكتروني. يمكنك إلغاء الاشتراك في أي وقت.",
+      "marketing_checkbox_label": "أرسل لي بريدًا إلكترونيًا بالأخبار والعروض",
+      "marketing_checkmark_label": "لقد اشتركت لتلقي الأخبار والعروض عبر البريد الإلكتروني",
+      "returns": {
+        "expand_events_label": "إظهار التفاصيل",
+        "hide_events_label": "إخفاء التفاصيل",
+        "ineligible_return_message": "لا يجوز إرجاع أي عنصر في هذا الطلب.",
+        "ineligible_return_message_when_returned": "لا يجوز إرجاع أي عناصر إضافية في هذا الطلب.",
+        "print_shipping_label": "طباعة ملصق الشحن",
+        "return_and_refund_modal_header": "سياسة الاسترداد",
+        "tracking_number": "عدد تتبع:"
+      }
     }
   }
 }
