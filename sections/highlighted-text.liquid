@@ -1,0 +1,365 @@
+{% liquid
+  for i in (1..3)
+    capture current
+      cycle 1, 2
+    endcapture
+  endfor
+  assign placeholder_image = 'lifestyle-' | append: current
+%}
+
+{%- style -%}
+/* Highlight Text with Image V2 - Dynamic CSS */
+#shopify-section-{{ section.id }} .highlight-text-with-image-v2 {
+  padding-top: {{ section.settings.padding_top }}px;
+  padding-bottom: {{ section.settings.padding_bottom }}px;
+}
+
+#shopify-section-{{ section.id }} .highlight-text-with-image-v2 .page-width {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+#shopify-section-{{ section.id }} .highlight-text-with-image-v2 .text {
+  line-height: 1.4;
+}
+
+#shopify-section-{{ section.id }} .highlight-text-with-image-v2 .text-left {
+  text-align: left;
+}
+
+#shopify-section-{{ section.id }} .highlight-text-with-image-v2 .text-center {
+  text-align: center;
+}
+
+#shopify-section-{{ section.id }} .highlight-text-with-image-v2 .text-right {
+  text-align: right;
+}
+
+#shopify-section-{{ section.id }} .highlight-text-with-image-v2 a {
+  display: inline-block;
+  vertical-align: middle;
+  width: var(--image-width);
+  max-width: 100%;
+  margin: 1.2rem 0.8rem;
+}
+
+#shopify-section-{{ section.id }} .highlight-text-with-image-v2 img,
+#shopify-section-{{ section.id }} .highlight-text-with-image-v2 svg {
+  display: block;
+}
+
+#shopify-section-{{ section.id }} .highlight-text-with-image-v2 .media-wrapper {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+#shopify-section-{{ section.id }} .highlight-text-with-image-v2 .hover-wrapper:hover img {
+  transform: scale(1.05);
+}
+
+#shopify-section-{{ section.id }} .highlight-text-with-image-v2 .hover-scale-up {
+  transition: transform 0.3s ease;
+}
+
+#shopify-section-{{ section.id }} .highlight-text-with-image-v2 .placeholder-svg {
+  width: 100%;
+  height: auto;
+  background-color: #e0e0e0;
+}
+
+@media (max-width: 767px) {
+  #shopify-section-{{ section.id }} .highlight-text-with-image-v2 a {
+    width: var(--image-width-mobile);
+    margin: 0.8rem 0.4rem;
+  }
+}
+{%- endstyle -%}
+
+<script>
+// Highlight Text with Image V2 - Embedded JavaScript
+(function() {
+  if (!customElements.get('highlight-text-image-v2')) {
+    class HighLightTextImageV2 extends HTMLElement {
+      constructor() {
+        super();
+      }
+
+      connectedCallback() {
+        this.sectionId = this.dataset.sectionId;
+        this.section = this.closest(`.section-${this.sectionId}`);
+
+        if (!this.section) return;
+
+        const templateEl = this.section.querySelector("template");
+        if (!templateEl) return;
+
+        this.templates = templateEl.content.cloneNode(true);
+        this.images = {};
+
+        // Use setTimeout to ensure DOM is ready
+        setTimeout(() => {
+          this.init();
+        }, 0);
+      }
+
+      init() {
+        let contentHTML = this.innerHTML;
+        const images = this.templates.querySelectorAll("[data-id]");
+
+        images.forEach(image => {
+          const key = image.dataset.id;
+          this.images[key] = image;
+        });
+
+        // Replace [img1], [img2], [img3] etc with actual image HTML
+        contentHTML = contentHTML.replace(/\[img(\d+)\]/g, (match, p1) => {
+          const imgIndex = `img${p1}`;
+          const imageWrapper = this.images[imgIndex];
+          if (imageWrapper) {
+            return imageWrapper.innerHTML;
+          }
+          return match;
+        });
+
+        this.innerHTML = contentHTML;
+      }
+    }
+    customElements.define('highlight-text-image-v2', HighLightTextImageV2);
+  }
+})();
+</script>
+
+<div
+  class="highlight-text-with-image-v2 section section-{{ section.id }} gradient color-{{ section.settings.color_scheme }}{% if section.settings.custom_class != blank %} {{ section.settings.custom_class }}{% endif %}"
+>
+  <div class="page-width">
+    <highlight-text-image-v2
+      data-section-id="{{ section.id }}"
+      class="text text-{{ section.settings.alignment }} {{ section.settings.heading_size }} block"
+    >
+      {{ section.settings.text }}
+    </highlight-text-image-v2>
+  </div>
+  <template>
+    {%- for block in section.blocks -%}
+      <div data-id="img{{ forloop.index }}">
+        {% liquid
+          assign alt_image = block.settings.image.alt | default: section.settings.text | escape
+        %}
+        <a
+          {% if block.settings.image_link != blank %}
+            href="{{ block.settings.image_link }}"
+          {% else %}
+            role="link"
+            aria-disabled="true"
+          {% endif %}
+          style="--image-width:{{ block.settings.image_width }}px; --image-width-mobile:{{ block.settings.image_width_mobile }}px;"
+          class="media-wrapper focus-inset overflow-hidden hover-wrapper"
+          aria-label="{{ alt_image }}"
+          {{ block.shopify_attributes }}
+        >
+          <div class="flex h-full w-full">
+            {% if block.settings.image != blank %}
+              {{
+                block.settings.image
+                | image_url: width: 300
+                | image_tag:
+                  loading: 'lazy',
+                  class: 'hover-scale-up',
+                  widths: '100,200,300,400'
+              }}
+            {% else %}
+              {{ placeholder_image | placeholder_svg_tag: 'placeholder-svg' }}
+            {% endif %}
+          </div>
+        </a>
+      </div>
+    {%- endfor -%}
+  </template>
+</div>
+
+{% schema %}
+{
+  "name": "Highlight Text V2",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "header",
+      "content": "General"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "Color scheme",
+      "default": "scheme-1"
+    },
+    {
+      "type": "header",
+      "content": "Text"
+    },
+    {
+      "type": "textarea",
+      "id": "text",
+      "label": "Heading",
+      "default": "Highlight products, [img1] a collection, or [img2] images alongside a brand message [img3]",
+      "info": "Use [img1], [img2], [img3] to place images inline with text"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "label": "Heading size",
+      "default": "hd1",
+      "options": [
+        {
+          "value": "h6",
+          "label": "Extra Small"
+        },
+        {
+          "value": "h5",
+          "label": "Small"
+        },
+        {
+          "value": "h4",
+          "label": "Medium Small"
+        },
+        {
+          "value": "h3",
+          "label": "Medium"
+        },
+        {
+          "value": "h2",
+          "label": "Large"
+        },
+        {
+          "value": "h1",
+          "label": "Extra Large"
+        },
+        {
+          "value": "hd3",
+          "label": "Display Small"
+        },
+        {
+          "value": "hd2",
+          "label": "Display Medium"
+        },
+        {
+          "value": "hd1",
+          "label": "Display Large"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "center",
+      "label": "Text alignment"
+    },
+    {
+      "type": "header",
+      "content": "Section Padding"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "unit": "px",
+      "label": "Padding top",
+      "default": 50
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "unit": "px",
+      "label": "Padding bottom",
+      "default": 50
+    },
+    {
+      "type": "header",
+      "content": "Custom Attributes"
+    },
+    {
+      "type": "text",
+      "id": "custom_class",
+      "label": "Custom class"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "image",
+      "name": "Image",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "url",
+          "id": "image_link",
+          "label": "Image link"
+        },
+        {
+          "type": "range",
+          "id": "image_width",
+          "min": 50,
+          "max": 250,
+          "step": 2,
+          "unit": "px",
+          "label": "Image width (desktop)",
+          "default": 220
+        },
+        {
+          "type": "range",
+          "id": "image_width_mobile",
+          "min": 50,
+          "max": 150,
+          "step": 2,
+          "unit": "px",
+          "label": "Image width (mobile)",
+          "default": 110
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Highlight Text with Image V2",
+      "blocks": [
+        {
+          "type": "image"
+        },
+        {
+          "type": "image"
+        },
+        {
+          "type": "image"
+        }
+      ]
+    }
+  ],
+  "disabled_on": {
+    "groups": ["footer", "header", "custom.overlay"]
+  }
+}
+{% endschema %}
