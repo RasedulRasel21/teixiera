@@ -45,16 +45,18 @@
           "type": "slide",
           "settings": {
             "color_scheme": "",
+            "background": "shopify://shop_images/575102143_1437255285074783_6097431719171318495_n.jpg",
+            "background_mobile": "shopify://shop_images/575102143_1437255285074783_6097431719171318495_n.jpg",
             "image_overlay_opacity": 0,
             "content_position": "middle-center",
             "content_position_mobile": "middle-center",
             "text_alignment": "center",
-            "title": "Image slideshow",
+            "title": "",
             "heading_size": "hd1",
             "subheading": "",
-            "description": "<p>Tell your brand's story through images</p>",
+            "description": "",
             "description_size": "text-base",
-            "button_label": "Button label",
+            "button_label": "",
             "button_link": "",
             "button_style": "btn--primary"
           }
@@ -63,16 +65,18 @@
           "type": "slide",
           "settings": {
             "color_scheme": "",
+            "background": "shopify://shop_images/2466.jpg",
+            "background_mobile": "shopify://shop_images/561300745_1406960204770958_5271908615929452820_n_e8515c17-a30d-44f3-b6eb-6f9c6b542080.jpg",
             "image_overlay_opacity": 0,
             "content_position": "middle-center",
             "content_position_mobile": "middle-center",
             "text_alignment": "center",
-            "title": "Image slideshow",
+            "title": "",
             "heading_size": "hd1",
             "subheading": "",
-            "description": "<p>Tell your brand's story through images</p>",
+            "description": "",
             "description_size": "text-base",
-            "button_label": "Button label",
+            "button_label": "",
             "button_link": "",
             "button_style": "btn--primary"
           }
@@ -81,16 +85,17 @@
           "type": "slide",
           "settings": {
             "color_scheme": "",
+            "background": "shopify://shop_images/557635713_1406960164770962_7058153603415496689_n.jpg",
             "image_overlay_opacity": 0,
             "content_position": "middle-center",
             "content_position_mobile": "middle-center",
             "text_alignment": "center",
-            "title": "Image slideshow",
+            "title": "",
             "heading_size": "hd1",
             "subheading": "",
-            "description": "<p>Tell your brand's story through images</p>",
+            "description": "",
             "description_size": "text-base",
-            "button_label": "Button label",
+            "button_label": "",
             "button_link": "",
             "button_style": "btn--primary"
           }
@@ -117,13 +122,39 @@
         "custom_class": ""
       }
     },
+    "featured_collection_v2_hrjgnw": {
+      "type": "featured-collection-v2",
+      "name": "Featured Collection V2",
+      "settings": {
+        "color_scheme": "",
+        "heading": "قطع - ازرقطقم المواليد",
+        "heading_size": "h1",
+        "subheading": "",
+        "description": "",
+        "show_collection_description": false,
+        "collection": "frontpage",
+        "limit": 8,
+        "columns": 4,
+        "column_gap": 20,
+        "row_gap": 40,
+        "pcard_image_ratio": "3/4",
+        "columns_mobile": "2",
+        "show_all_button_on_top": false,
+        "button_label": "",
+        "button_style": "btn--primary",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "custom_class": ""
+      }
+    },
     "collection_list_v2_UPwNA6": {
       "type": "collection-list-v2",
       "blocks": {
         "collection_WwG9rU": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "bath-towel",
+            "image": "shopify://shop_images/526585009_1338029168330729_2728084565205039179_n.jpg",
             "title": "",
             "description": ""
           }
@@ -131,7 +162,8 @@
         "collection_BApUQk": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "kids-bathrobe",
+            "image": "shopify://shop_images/547465284_1380151847451794_7537810103545102886_n_5d860b73-da52-4747-af78-3b3cb3e5cd3b.jpg",
             "title": "",
             "description": ""
           }
@@ -139,7 +171,8 @@
         "collection_pRRCdd": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "hair-towel",
+            "image": "shopify://shop_images/557635713_1406960164770962_7058153603415496689_n_7724a19d-e586-4b5d-8481-f47986b85df6.jpg",
             "title": "",
             "description": ""
           }
@@ -147,7 +180,8 @@
         "collection_HHUniK": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "kids-bathrobe",
+            "image": "shopify://shop_images/550338675_1392140292919616_2272756255846955883_n_d8cfebf2-5b0d-4a2c-aede-c7add76dafa1.jpg",
             "title": "",
             "description": ""
           }
@@ -163,7 +197,7 @@
       "settings": {
         "color_scheme": "",
         "subheading": "",
-        "heading": "Shop by Collection",
+        "heading": "قطع - ازرقطقم المواليد",
         "heading_size": "h1",
         "description": "",
         "card_color_scheme": "",
@@ -181,37 +215,13 @@
         "custom_class": ""
       }
     },
-    "featured_collection_v2_hrjgnw": {
-      "type": "featured-collection-v2",
-      "name": "Featured Collection V2",
-      "settings": {
-        "color_scheme": "",
-        "heading": "Featured Beauty Products",
-        "heading_size": "h1",
-        "subheading": "",
-        "description": "",
-        "show_collection_description": false,
-        "collection": "",
-        "limit": 8,
-        "columns": 4,
-        "column_gap": 20,
-        "row_gap": 40,
-        "pcard_image_ratio": "3/4",
-        "columns_mobile": "2",
-        "show_all_button_on_top": false,
-        "button_label": "",
-        "button_style": "btn--primary",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "custom_class": ""
-      }
-    },
     "highlighted_text_JgtJxB": {
       "type": "highlighted-text",
       "blocks": {
         "image_gzXChg": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/547465284_1380151847451794_7537810103545102886_n_5d860b73-da52-4747-af78-3b3cb3e5cd3b.jpg",
             "image_link": "",
             "image_width": 220,
             "image_width_mobile": 110
@@ -220,6 +230,7 @@
         "image_JAAHGx": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/549186122_1390021949798117_8703220627994153603_n.jpg",
             "image_link": "",
             "image_width": 220,
             "image_width_mobile": 110
@@ -228,8 +239,9 @@
         "image_zWFRCR": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/561300745_1406960204770958_5271908615929452820_n_e8515c17-a30d-44f3-b6eb-6f9c6b542080.jpg",
             "image_link": "",
-            "image_width": 220,
+            "image_width": 130,
             "image_width_mobile": 110
           }
         }
@@ -242,7 +254,7 @@
       "name": "Highlight Text with Image V2",
       "settings": {
         "color_scheme": "",
-        "text": "Highlight products, [img1] a collection, or [img2] images alongside a brand message [img3]",
+        "text": "ازرقطقم المواليد [img1] ازرقطقم المواليد [img2] ازرقطقم المواليد [img3]",
         "heading_size": "hd1",
         "alignment": "center",
         "padding_top": 50,
@@ -332,31 +344,6 @@
         "columns_mobile": "1",
         "padding_top": 50,
         "padding_bottom": 50,
-        "custom_class": ""
-      }
-    },
-    "newsletter_v2_pmrAn6": {
-      "type": "newsletter-v2",
-      "name": "Newsletter V2",
-      "settings": {
-        "color_scheme": "",
-        "layout": "vertical",
-        "alignment": "center",
-        "show_background_image": false,
-        "overlay_opacity": 30,
-        "subheading": "Stay Updated",
-        "heading": "Subscribe to our Newsletter",
-        "heading_size": "h2",
-        "description": "<p>Be the first to know about new collections and exclusive offers.</p>",
-        "design": "design-2",
-        "form_width": 600,
-        "email_placeholder": "Enter your email",
-        "button_label": "Subscribe",
-        "button_style": "btn--primary",
-        "newsletter_term": "<p>By subscribing you agree to the <a href='#'>Terms of Use</a> & <a href='#'>Privacy Policy</a>.</p>",
-        "newsletter_term_size": "0.875rem",
-        "padding_top": 56,
-        "padding_bottom": 56,
         "custom_class": ""
       }
     },
@@ -476,13 +463,38 @@
         "divider_layout": "vertical",
         "custom_class": ""
       }
+    },
+    "newsletter_v2_pmrAn6": {
+      "type": "newsletter-v2",
+      "name": "Newsletter V2",
+      "settings": {
+        "color_scheme": "",
+        "layout": "vertical",
+        "alignment": "center",
+        "show_background_image": false,
+        "overlay_opacity": 30,
+        "subheading": "Stay Updated",
+        "heading": "Subscribe to our Newsletter",
+        "heading_size": "h2",
+        "description": "<p>Be the first to know about new collections and exclusive offers.</p>",
+        "design": "design-2",
+        "form_width": 600,
+        "email_placeholder": "Enter your email",
+        "button_label": "Subscribe",
+        "button_style": "btn--primary",
+        "newsletter_term": "<p>By subscribing you agree to the <a href='#'>Terms of Use</a> & <a href='#'>Privacy Policy</a>.</p>",
+        "newsletter_term_size": "0.875rem",
+        "padding_top": 56,
+        "padding_bottom": 56,
+        "custom_class": ""
+      }
     }
   },
   "order": [
     "featured_collection",
     "slideshow_v2_TiRke7",
-    "collection_list_v2_UPwNA6",
     "featured_collection_v2_hrjgnw",
+    "collection_list_v2_UPwNA6",
     "highlighted_text_JgtJxB",
     "testmonial_v2_BV3zfC",
     "collage_tab_eGjRnh",
