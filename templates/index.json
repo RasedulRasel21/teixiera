@@ -147,6 +147,31 @@
         "custom_class": ""
       }
     },
+    "featured_collection_v2_YmGXNV": {
+      "type": "featured-collection-v2",
+      "name": "Featured Collection V2",
+      "settings": {
+        "color_scheme": "",
+        "heading": "قطع - ازرقطقم المواليد",
+        "heading_size": "h1",
+        "subheading": "",
+        "description": "",
+        "show_collection_description": false,
+        "collection": "frontpage",
+        "limit": 8,
+        "columns": 4,
+        "column_gap": 20,
+        "row_gap": 40,
+        "pcard_image_ratio": "3/4",
+        "columns_mobile": "2",
+        "show_all_button_on_top": false,
+        "button_label": "",
+        "button_style": "btn--primary",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "custom_class": ""
+      }
+    },
     "rich_text_kfALeF": {
       "type": "rich-text",
       "blocks": {
@@ -548,6 +573,7 @@
     "collection_list_v2_UPwNA6",
     "highlighted_text_JgtJxB",
     "testmonial_v2_BV3zfC",
+    "featured_collection_v2_YmGXNV",
     "collage_tab_eGjRnh",
     "scrolling_promotion_dbMHjm",
     "newsletter_v2_pmrAn6"
