@@ -2178,11 +2178,13 @@ input[type='checkbox'] {
 .announcement-bar .slider-button--next {
   margin-right: -1.5rem;
   min-width: 44px;
+  transform: rotate(270deg);
 }
 
 .announcement-bar .slider-button--prev {
   margin-left: -1.5rem;
   min-width: 44px;
+  transform: rotate(90deg);
 }
 
 .announcement-bar .slider-button--next:focus-visible,
