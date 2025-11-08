@@ -2624,6 +2624,152 @@
         "return_and_refund_modal_header": "سياسة الاسترداد",
         "tracking_number": "عدد تتبع:"
       }
+    },
+    "ui_components": {
+      "december": "ديسمبر",
+      "monday": "الاثنين",
+      "tuesday": "يوم الثلاثاء",
+      "wednesday": "الأربعاء",
+      "thursday": "يوم الخميس",
+      "friday": "جمعة",
+      "saturday": "السبت",
+      "sunday": "الأحد",
+      "mondayAbbreviation": "شهر",
+      "tuesdayAbbreviation": "تو",
+      "wednesdayAbbreviation": "نحن",
+      "thursdayAbbreviation": "ذ",
+      "fridayAbbreviation": "فرنسي",
+      "saturdayAbbreviation": "سا",
+      "sundayAbbreviation": "سو",
+      "showNextMonth": "عرض الشهر القادم، {{month}} {{year}}",
+      "showPreviousMonth": "إظهار الشهر السابق، {{month}} {{year}}",
+      "rangeStart": "بداية النطاق",
+      "inRange": "في النطاق",
+      "rangeEnd": "نهاية النطاق",
+      "autocompleteOptionsAvailable": {
+        "one": "{{count}} عنصر متاح",
+        "other": "{{count}} عناصر متاحة"
+      },
+      "removeItem": "إزالة {{label}}",
+      "removeTag": "إزالة العلامة",
+      "month": {
+        "one": "شهر",
+        "other": "شهور"
+      },
+      "mapClusterTitle": {
+        "one": "مجموعة من {{number}} علامة",
+        "other": "مجموعة من {{number}} علامة"
+      },
+      "expandSheet": "يوسع",
+      "qrCode": "رمز الاستجابة السريعة",
+      "addFile": "إضافة ملف",
+      "dropzoneInvalidFileType": "نوع الملف غير مدعوم",
+      "dropzoneDraggedOver": "إسقاط الملف للتحميل"
+    },
+    "profile_preview_bar": {
+      "customize_button": "تخصيص",
+      "hide_bar": "إخفاء الشريط",
+      "navigate_to_admin": "انتقل إلى المسؤول",
+      "close_preview": "إغلاق المعاينة",
+      "previewing": "أنت تقوم بمعاينة:",
+      "saved_at": "تم الحفظ {{date}} في {{time}}",
+      "viewing": "أنت تشاهد:",
+      "not_available": "بيانات الملف الشخصي غير متوفرة",
+      "actions_button": "الإجراءات"
+    },
+    "active_inspector": {
+      "extension": {
+        "select": "حدد الامتداد المسمى {{extensionName}}",
+        "unselect": "إلغاء تحديد الامتداد المسمى {{extensionName}}",
+        "move_down": "نقل الامتداد إلى الموضع التالي",
+        "move_up": "نقل الامتداد إلى الموضع السابق",
+        "remove": "إزالة الامتداد",
+        "move_down_tooltip": "انتقل إلى الموضع التالي",
+        "move_up_tooltip": "الانتقال إلى الموضع السابق",
+        "remove_tooltip": "يزيل"
+      }
+    },
+    "editor": {
+      "link_new_tab_confirmation": "لا يمكن فتح هذا الرابط داخل المحرر. سيتم فتحه في نافذة جديدة ( {{resolved_to_link}} ). انقر \"موافق\" للمتابعة."
+    },
+    "settings": {
+      "title": "إعدادات",
+      "loading_accessibility_message": "تحميل صفحة الإعدادات",
+      "log_out_everywhere": {
+        "title": "تسجيل الخروج في كل مكان",
+        "description": "إذا فقدت جهازًا أو كانت لديك مخاوف أمنية، فقم بتسجيل الخروج من كل مكان لضمان أمان حسابك.",
+        "button": "تسجيل الخروج في كل مكان",
+        "warning_message": "سيتم تسجيل خروجك أيضًا على هذا الجهاز."
+      }
+    },
+    "shop_ads": {
+      "title": "عروض حصرية من المتجر",
+      "subtitle": "متاح لفترة محدودة",
+      "button": "استكشف في المتجر",
+      "previous_button": "سابق",
+      "next_button": "التالي"
+    },
+    "knowledge_base": {
+      "self_serve_returns": {
+        "enabled": "يمكن للعملاء طلب وإدارة الإرجاعات بأنفسهم.",
+        "disabled": "يجب على العملاء الاتصال بالتاجر لطلب الإرجاع."
+      }
+    },
+    "subscriptions": {
+      "update_payment_instrument": {
+        "title": "استبدال طريقة الدفع",
+        "loading": "تحميل طرق الدفع",
+        "no_payment_methods_available": "لا توجد طرق دفع متاحة",
+        "select_new_payment_method": "اختر طريقة دفع جديدة",
+        "current_method": "حاضِر",
+        "cancel": "يلغي",
+        "save": "يحفظ",
+        "success": "تم تحديث طريقة الدفع",
+        "use_new_payment_method": "+ استخدم طريقة الدفع الجديدة"
+      },
+      "subscription_contracts": {
+        "title": "استخدم طريقة الدفع للطلبات المتكررة",
+        "more_items": {
+          "one": "{{count}} منتج آخر",
+          "other": "{{count}} المزيد من المنتجات"
+        },
+        "product_count": {
+          "one": "{{count}} منتج",
+          "other": "{{count}} منتجات"
+        },
+        "subscription_contracts_updated": "تم تحديث {{succeeded}} من {{total}} اشتراك",
+        "product_details": "تفاصيل المنتج",
+        "load_more": "تحميل المزيد"
+      },
+      "updating_contracts": {
+        "one": "جاري تحديث عقد الاشتراك {{count}} ...",
+        "other": "جاري تحديث {{count}} عقود الاشتراك..."
+      },
+      "contracts_updated": {
+        "one": "تم تحديث عقد الاشتراك {{count}} بنجاح",
+        "other": "تم تحديث {{count}} عقود الاشتراك بنجاح"
+      },
+      "contracts_update_failed": "فشل تحديث بعض عقود الاشتراك",
+      "invalid_wallet_type_error": "نوع المحفظة غير صالح."
+    },
+    "sign_in": {
+      "brand_logo_alt_text": "شعار %{shop_name}",
+      "processing": "يعالج…",
+      "step_one": {
+        "page_title": "تسجيل الدخول - %{shop_name}",
+        "heading": "تسجيل الدخول",
+        "subheading": "أدخل بريدك الإلكتروني وسنرسل لك رمز التحقق",
+        "subheading_with_sign_in_options": "اختر الطريقة التي تريد تسجيل الدخول بها",
+        "input_field_label": "بريد إلكتروني",
+        "button": "يكمل",
+        "or": "أو"
+      },
+      "step_two": {
+        "page_title": "أدخل الرمز - %{shop_name}",
+        "heading": "أدخل الرمز",
+        "subheading": "تم الإرسال إلى %{email}",
+        "restart_link": "تسجيل الدخول باستخدام بريد إلكتروني مختلف"
+      }
     }
   }
 }
