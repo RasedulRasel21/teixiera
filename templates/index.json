@@ -258,53 +258,6 @@
         "custom_class": ""
       }
     },
-    "highlighted_text_JgtJxB": {
-      "type": "highlighted-text",
-      "blocks": {
-        "image_gzXChg": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/547465284_1380151847451794_7537810103545102886_n_5d860b73-da52-4747-af78-3b3cb3e5cd3b.jpg",
-            "image_link": "",
-            "image_width": 220,
-            "image_width_mobile": 110
-          }
-        },
-        "image_JAAHGx": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/549186122_1390021949798117_8703220627994153603_n.jpg",
-            "image_link": "",
-            "image_width": 220,
-            "image_width_mobile": 110
-          }
-        },
-        "image_zWFRCR": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/561300745_1406960204770958_5271908615929452820_n_e8515c17-a30d-44f3-b6eb-6f9c6b542080.jpg",
-            "image_link": "",
-            "image_width": 130,
-            "image_width_mobile": 110
-          }
-        }
-      },
-      "block_order": [
-        "image_gzXChg",
-        "image_JAAHGx",
-        "image_zWFRCR"
-      ],
-      "name": "Highlight Text with Image V2",
-      "settings": {
-        "color_scheme": "",
-        "text": "ازرقطقم المواليد, [img1] ازرقطقم المواليد, [img2] ازرقطقم المواليد, [img3]",
-        "heading_size": "hd1",
-        "alignment": "center",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "custom_class": ""
-      }
-    },
     "testmonial_v2_BV3zfC": {
       "type": "testmonial_v2",
       "blocks": {
@@ -563,50 +516,6 @@
         "padding_bottom": 56,
         "custom_class": ""
       }
-    },
-    "highlighted_text_ayUdAJ": {
-      "type": "highlighted-text",
-      "blocks": {
-        "image_mAAntw": {
-          "type": "image",
-          "settings": {
-            "image_link": "",
-            "image_width": 220,
-            "image_width_mobile": 110
-          }
-        },
-        "image_tCzka3": {
-          "type": "image",
-          "settings": {
-            "image_link": "",
-            "image_width": 220,
-            "image_width_mobile": 110
-          }
-        },
-        "image_FhMFxq": {
-          "type": "image",
-          "settings": {
-            "image_link": "",
-            "image_width": 220,
-            "image_width_mobile": 110
-          }
-        }
-      },
-      "block_order": [
-        "image_mAAntw",
-        "image_tCzka3",
-        "image_FhMFxq"
-      ],
-      "name": "Highlight Text with Image V2",
-      "settings": {
-        "color_scheme": "",
-        "text": "Highlight products, [img1] a collection, or [img2] images alongside a brand message [img3]",
-        "heading_size": "hd1",
-        "alignment": "center",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "custom_class": ""
-      }
     }
   },
   "order": [
@@ -615,12 +524,10 @@
     "featured_collection_v2_hrjgnw",
     "rich_text_kfALeF",
     "collection_list_v2_UPwNA6",
-    "highlighted_text_JgtJxB",
     "testmonial_v2_BV3zfC",
     "featured_collection_v2_YmGXNV",
     "collage_tab_eGjRnh",
     "scrolling_promotion_dbMHjm",
-    "newsletter_v2_pmrAn6",
-    "highlighted_text_ayUdAJ"
+    "newsletter_v2_pmrAn6"
   ]
 }
