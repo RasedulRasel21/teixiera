@@ -1,682 +1,682 @@
 /* RTL (Right-to-Left) Stylesheet for Arabic and RTL Languages */
 
 /* Base RTL Adjustments */
-[lang="ar"] [dir="rtl"] {
+[lang="ar"][dir="rtl"] {
   direction: rtl;
   text-align: right;
 }
 
 /* Reset text alignment for ltr content */
-[lang="ar"] [dir="rtl"] [dir="ltr"] {
+[lang="ar"][dir="rtl"] [dir="ltr"] {
   direction: ltr;
   text-align: left;
 }
 
 /* Typography and Text Alignment */
-[lang="ar"] [dir="rtl"] .left {
+[lang="ar"][dir="rtl"] .left {
   text-align: right !important;
 }
 
-[lang="ar"] [dir="rtl"] .right {
+[lang="ar"][dir="rtl"] .right {
   text-align: left !important;
 }
 
-[lang="ar"] [dir="rtl"] .text-left {
+[lang="ar"][dir="rtl"] .text-left {
   text-align: right !important;
 }
 
-[lang="ar"] [dir="rtl"] .text-right {
+[lang="ar"][dir="rtl"] .text-right {
   text-align: left !important;
 }
 
 /* Page Width and Containers */
-[lang="ar"] [dir="rtl"] .page-width {
+[lang="ar"][dir="rtl"] .page-width {
   padding-right: 1.5rem;
   padding-left: 1.5rem;
 }
 
-[lang="ar"] [dir="rtl"] .utility-bar__grid.page-width {
+[lang="ar"][dir="rtl"] .utility-bar__grid.page-width {
   padding-right: 3rem;
   padding-left: 3rem;
 }
 
 /* Flexbox Reversals */
-[lang="ar"] [dir="rtl"] .flex-row-reverse {
+[lang="ar"][dir="rtl"] .flex-row-reverse {
   flex-direction: row;
 }
 
-[lang="ar"] [dir="rtl"] .flex-row {
+[lang="ar"][dir="rtl"] .flex-row {
   flex-direction: row-reverse;
 }
 
 /* Grid Adjustments */
-[lang="ar"] [dir="rtl"] .grid {
+[lang="ar"][dir="rtl"] .grid {
   direction: rtl;
 }
 
 /* Header and Navigation */
-[lang="ar"] [dir="rtl"] .header__icon--cart {
+[lang="ar"][dir="rtl"] .header__icon--cart {
   margin-left: 0;
   margin-right: 1rem;
 }
 
-[lang="ar"] [dir="rtl"] .header__menu-item {
+[lang="ar"][dir="rtl"] .header__menu-item {
   margin-left: 0;
   margin-right: 0;
 }
 
-[lang="ar"] [dir="rtl"] .header__menu-item:last-child {
+[lang="ar"][dir="rtl"] .header__menu-item:last-child {
   margin-right: 0;
 }
 
-[lang="ar"] [dir="rtl"] .header__icon {
+[lang="ar"][dir="rtl"] .header__icon {
   margin-left: 1rem;
   margin-right: 0;
 }
 
-[lang="ar"] [dir="rtl"] .header__inline-menu {
+[lang="ar"][dir="rtl"] .header__inline-menu {
   margin-left: 0;
   margin-right: auto;
 }
 
-[lang="ar"] [dir="rtl"] .header__search,
-[lang="ar"] [dir="rtl"] .header__icon--account {
+[lang="ar"][dir="rtl"] .header__search,
+[lang="ar"][dir="rtl"] .header__icon--account {
   margin-left: 0;
   margin-right: 1rem;
 }
 
 /* Logo */
-[lang="ar"] [dir="rtl"] .header__heading-logo {
+[lang="ar"][dir="rtl"] .header__heading-logo {
   margin-left: 0;
   margin-right: auto;
 }
 
 /* Menu Drawer */
-[lang="ar"] [dir="rtl"] .menu-drawer {
+[lang="ar"][dir="rtl"] .menu-drawer {
   right: auto;
   left: 0;
   transform: translateX(-100%);
 }
 
-[lang="ar"] [dir="rtl"] .menu-drawer.active {
+[lang="ar"][dir="rtl"] .menu-drawer.active {
   transform: translateX(0);
 }
 
-[lang="ar"] [dir="rtl"] .menu-drawer__navigation {
+[lang="ar"][dir="rtl"] .menu-drawer__navigation {
   text-align: right;
 }
 
-[lang="ar"] [dir="rtl"] .menu-drawer__menu-item {
+[lang="ar"][dir="rtl"] .menu-drawer__menu-item {
   padding-right: 2rem;
   padding-left: 0;
 }
 
 /* Mega Menu */
-[lang="ar"] [dir="rtl"] .mega-menu {
+[lang="ar"][dir="rtl"] .mega-menu {
   right: auto;
   left: 0;
 }
 
-[lang="ar"] [dir="rtl"] .mega-menu__link {
+[lang="ar"][dir="rtl"] .mega-menu__link {
   text-align: right;
 }
 
-[lang="ar"] [dir="rtl"] .mega-menu__wrapper {
+[lang="ar"][dir="rtl"] .mega-menu__wrapper {
   flex-direction: row-reverse;
 }
 
-[lang="ar"] [dir="rtl"] .mega-menu__images {
+[lang="ar"][dir="rtl"] .mega-menu__images {
   order: -1;
   margin-left: 0;
   margin-right: 3rem;
 }
 
 /* Dropdown Menu */
-[lang="ar"] [dir="rtl"] .header__submenu {
+[lang="ar"][dir="rtl"] .header__submenu {
   right: auto;
   left: 0;
 }
 
 /* Search */
-[lang="ar"] [dir="rtl"] .search__input {
+[lang="ar"][dir="rtl"] .search__input {
   padding-right: 4.5rem;
   padding-left: 1rem;
   text-align: right;
 }
 
-[lang="ar"] [dir="rtl"] .search__button {
+[lang="ar"][dir="rtl"] .search__button {
   right: auto;
   left: 0;
 }
 
 /* Predictive Search */
-[lang="ar"] [dir="rtl"] .predictive-search {
+[lang="ar"][dir="rtl"] .predictive-search {
   text-align: right;
 }
 
-[lang="ar"] [dir="rtl"] .predictive-search__item-content {
+[lang="ar"][dir="rtl"] .predictive-search__item-content {
   margin-right: 1rem;
   margin-left: 0;
 }
 
-[lang="ar"] [dir="rtl"] .predictive-search__item-vendor {
+[lang="ar"][dir="rtl"] .predictive-search__item-vendor {
   margin-right: 0;
   margin-left: 1rem;
 }
 
 /* Buttons */
-/* [lang="ar"] [dir="rtl"]  .button::after,
-[lang="ar"] [dir="rtl"]  .shopify-payment-button__button--unbranded::after {
+/* [lang="ar"][dir="rtl"]  .button::after,
+[lang="ar"][dir="rtl"]  .shopify-payment-button__button--unbranded::after {
   right: auto;
   left: 50%;
   transform: translateX(-50%);
 }
 
-[lang="ar"] [dir="rtl"]  .button--secondary::after {
+[lang="ar"][dir="rtl"]  .button--secondary::after {
   right: auto;
   left: 50%;
 } */
 
 /* Icons */
-[lang="ar"] [dir="rtl"] .icon-caret,
-[lang="ar"] [dir="rtl"] .icon-arrow {
+[lang="ar"][dir="rtl"] .icon-caret,
+[lang="ar"][dir="rtl"] .icon-arrow {
   transform: scaleX(-1);
 }
 
-[lang="ar"] [dir="rtl"] svg.icon-caret {
+[lang="ar"][dir="rtl"] svg.icon-caret {
   transform: rotate(180deg);
 }
 
 /* Cards */
-[lang="ar"] [dir="rtl"] .card__badge {
+[lang="ar"][dir="rtl"] .card__badge {
   right: auto;
   left: 1rem;
 }
 
-[lang="ar"] [dir="rtl"] .card__information {
+[lang="ar"][dir="rtl"] .card__information {
   text-align: right;
 }
 
-[lang="ar"] [dir="rtl"] .card-information .card-information__text {
+[lang="ar"][dir="rtl"] .card-information .card-information__text {
   text-align: right;
 }
 
 /* Product Cards */
-[lang="ar"] [dir="rtl"] .product-card-wrapper .card__badge {
+[lang="ar"][dir="rtl"] .product-card-wrapper .card__badge {
   right: auto;
   left: calc(var(--image-padding) + 1rem);
 }
 
-[lang="ar"] [dir="rtl"] .card__inner .media {
+[lang="ar"][dir="rtl"] .card__inner .media {
   direction: ltr;
 }
 
 /* Cart */
-[lang="ar"] [dir="rtl"] .cart-drawer {
+[lang="ar"][dir="rtl"] .cart-drawer {
   right: auto;
   left: 0;
 }
 
-[lang="ar"] [dir="rtl"] .cart-drawer.active {
+[lang="ar"][dir="rtl"] .cart-drawer.active {
   transform: translateX(0);
 }
 
-[lang="ar"] [dir="rtl"] .cart-drawer__close {
+[lang="ar"][dir="rtl"] .cart-drawer__close {
   right: auto;
   left: 2rem;
 }
 
-[lang="ar"] [dir="rtl"] .cart-item {
+[lang="ar"][dir="rtl"] .cart-item {
   text-align: right;
 }
 
-[lang="ar"] [dir="rtl"] .cart-item__details {
+[lang="ar"][dir="rtl"] .cart-item__details {
   margin-right: 1.5rem;
   margin-left: 0;
 }
 
-[lang="ar"] [dir="rtl"] .cart-item__media {
+[lang="ar"][dir="rtl"] .cart-item__media {
   margin-left: 1.5rem;
   margin-right: 0;
 }
 
-[lang="ar"] [dir="rtl"] .cart-item__totals {
+[lang="ar"][dir="rtl"] .cart-item__totals {
   text-align: left;
 }
 
-[lang="ar"] [dir="rtl"] .cart-item__quantity {
+[lang="ar"][dir="rtl"] .cart-item__quantity {
   margin-left: auto;
   margin-right: 0;
 }
 
 /* Quantity Input */
-[lang="ar"] [dir="rtl"] .quantity__button {
+[lang="ar"][dir="rtl"] .quantity__button {
   right: auto;
 }
 
-[lang="ar"] [dir="rtl"] .quantity__input {
+[lang="ar"][dir="rtl"] .quantity__input {
   text-align: center;
 }
 
 /* Cart Notification */
-[lang="ar"] [dir="rtl"] .cart-notification {
+[lang="ar"][dir="rtl"] .cart-notification {
   right: auto;
   left: 0;
 }
 
-[lang="ar"] [dir="rtl"] .cart-notification-product {
+[lang="ar"][dir="rtl"] .cart-notification-product {
   margin-left: 1rem;
   margin-right: 0;
 }
 
 /* Product */
-[lang="ar"] [dir="rtl"] .product__info-container {
+[lang="ar"][dir="rtl"] .product__info-container {
   text-align: right;
 }
 
-[lang="ar"] [dir="rtl"] .product__title,
-[lang="ar"] [dir="rtl"] .product__text {
+[lang="ar"][dir="rtl"] .product__title,
+[lang="ar"][dir="rtl"] .product__text {
   text-align: right;
 }
 
-[lang="ar"] [dir="rtl"] .product-form__input {
+[lang="ar"][dir="rtl"] .product-form__input {
   text-align: right;
 }
 
 /* Product Media */
-[lang="ar"] [dir="rtl"] .product__media-list {
+[lang="ar"][dir="rtl"] .product__media-list {
   direction: rtl;
 }
 
-[lang="ar"] [dir="rtl"] .product__modal-opener {
+[lang="ar"][dir="rtl"] .product__modal-opener {
   right: auto;
   left: 0;
 }
 
 /* Product Thumbnails */
-[lang="ar"] [dir="rtl"] .thumbnail-list {
+[lang="ar"][dir="rtl"] .thumbnail-list {
   margin-right: 0;
   margin-left: 1rem;
 }
 
-[lang="ar"] [dir="rtl"] .slider-button--prev {
+[lang="ar"][dir="rtl"] .slider-button--prev {
   right: auto;
   left: 0;
 }
 
-[lang="ar"] [dir="rtl"] .slider-button--next {
+[lang="ar"][dir="rtl"] .slider-button--next {
   left: auto;
   right: 0;
 }
 
 /* Variant Picker */
-[lang="ar"] [dir="rtl"] .product-form__input label {
+[lang="ar"][dir="rtl"] .product-form__input label {
   text-align: right;
 }
 
-[lang="ar"] [dir="rtl"] .swatch {
+[lang="ar"][dir="rtl"] .swatch {
   margin-left: 1rem;
   margin-right: 0;
 }
 
 /* Price */
-[lang="ar"] [dir="rtl"] .price {
+[lang="ar"][dir="rtl"] .price {
   text-align: right;
 }
 
-[lang="ar"] [dir="rtl"] .price--on-sale .price__sale {
+[lang="ar"][dir="rtl"] .price--on-sale .price__sale {
   margin-right: 0;
   margin-left: 1rem;
 }
 
 /* Breadcrumbs */
-[lang="ar"] [dir="rtl"] .breadcrumb__link {
+[lang="ar"][dir="rtl"] .breadcrumb__link {
   margin-right: 0;
   margin-left: 1rem;
 }
 
-[lang="ar"] [dir="rtl"] .breadcrumb__list {
+[lang="ar"][dir="rtl"] .breadcrumb__list {
   text-align: right;
 }
 
 /* Collection Filters */
-[lang="ar"] [dir="rtl"] .facets__form {
+[lang="ar"][dir="rtl"] .facets__form {
   text-align: right;
 }
 
-[lang="ar"] [dir="rtl"] .facet-checkbox {
+[lang="ar"][dir="rtl"] .facet-checkbox {
   margin-right: 0;
   margin-left: 1rem;
 }
 
-[lang="ar"] [dir="rtl"] .facet-filters {
+[lang="ar"][dir="rtl"] .facet-filters {
   margin-right: 0;
   margin-left: auto;
 }
 
-[lang="ar"] [dir="rtl"] .facet-filters__label {
+[lang="ar"][dir="rtl"] .facet-filters__label {
   margin-right: 0;
   margin-left: 1rem;
 }
 
-[lang="ar"] [dir="rtl"] .active-facets {
+[lang="ar"][dir="rtl"] .active-facets {
   text-align: right;
 }
 
-[lang="ar"] [dir="rtl"] .active-facets__button {
+[lang="ar"][dir="rtl"] .active-facets__button {
   margin-left: 1rem;
   margin-right: 0;
 }
 
 /* Mobile Menu Drawer */
-[lang="ar"] [dir="rtl"] .menu-drawer__close-button {
+[lang="ar"][dir="rtl"] .menu-drawer__close-button {
   left: 2rem;
   right: auto;
 }
 
-[lang="ar"] [dir="rtl"] .menu-drawer__menu li {
+[lang="ar"][dir="rtl"] .menu-drawer__menu li {
   text-align: right;
 }
 
 /* Footer */
-[lang="ar"] [dir="rtl"] .footer__content-top {
+[lang="ar"][dir="rtl"] .footer__content-top {
   text-align: right;
 }
 
-[lang="ar"] [dir="rtl"] .footer__blocks-wrapper {
+[lang="ar"][dir="rtl"] .footer__blocks-wrapper {
   direction: rtl;
 }
 
-[lang="ar"] [dir="rtl"] .footer-block__heading {
+[lang="ar"][dir="rtl"] .footer-block__heading {
   text-align: right;
 }
 
-[lang="ar"] [dir="rtl"] .footer-block__details-content {
+[lang="ar"][dir="rtl"] .footer-block__details-content {
   text-align: right;
 }
 
-[lang="ar"] [dir="rtl"] .footer__list-social {
+[lang="ar"][dir="rtl"] .footer__list-social {
   justify-content: flex-end;
 }
 
-[lang="ar"] [dir="rtl"] .footer__list-social.list-social {
+[lang="ar"][dir="rtl"] .footer__list-social.list-social {
   margin-left: 0;
   margin-right: auto;
 }
 
 /* List Items */
-[lang="ar"] [dir="rtl"] ul,
-[lang="ar"] [dir="rtl"] ol {
+[lang="ar"][dir="rtl"] ul,
+[lang="ar"][dir="rtl"] ol {
   padding-right: 0;
   padding-left: 0;
 }
 
-[lang="ar"] [dir="rtl"] .rte > *:last-child {
+[lang="ar"][dir="rtl"] .rte > *:last-child {
   text-align: right;
 }
 
-[lang="ar"] [dir="rtl"] .list-unstyled {
+[lang="ar"][dir="rtl"] .list-unstyled {
   padding-right: 0;
 }
 
 /* Links with Icons */
-[lang="ar"] [dir="rtl"] .link--text::after {
+[lang="ar"][dir="rtl"] .link--text::after {
   margin-right: 0;
   margin-left: 0.5rem;
 }
 
 /* Badges */
-[lang="ar"] [dir="rtl"] .badge {
+[lang="ar"][dir="rtl"] .badge {
   text-align: center;
 }
 
 /* Pagination */
-[lang="ar"] [dir="rtl"] .pagination__item {
+[lang="ar"][dir="rtl"] .pagination__item {
   margin-left: 0;
   margin-right: 1rem;
 }
 
-[lang="ar"] [dir="rtl"] .pagination__item:last-child {
+[lang="ar"][dir="rtl"] .pagination__item:last-child {
   margin-right: 0;
 }
 
 /* Modal */
-[lang="ar"] [dir="rtl"] .modal__close-button {
+[lang="ar"][dir="rtl"] .modal__close-button {
   right: auto;
   left: 1rem;
 }
 
 /* Slideshow */
-[lang="ar"] [dir="rtl"] .slideshow__controls {
+[lang="ar"][dir="rtl"] .slideshow__controls {
   right: auto;
   left: 2rem;
 }
 
-[lang="ar"] [dir="rtl"] .slideshow__text {
+[lang="ar"][dir="rtl"] .slideshow__text {
   text-align: right;
 }
 
 /* Slideshow V2 RTL Fix */
-[lang="ar"] [dir="rtl"] .slide {
+[lang="ar"][dir="rtl"] .slide {
   direction: ltr;
 }
 
-[lang="ar"] [dir="rtl"] .slideshow__content {
+[lang="ar"][dir="rtl"] .slideshow__content {
   direction: rtl;
 }
 
 /* Image with Text */
-[lang="ar"] [dir="rtl"] .image-with-text__text-item {
+[lang="ar"][dir="rtl"] .image-with-text__text-item {
   text-align: right;
 }
 
-[lang="ar"] [dir="rtl"] .image-with-text__content {
+[lang="ar"][dir="rtl"] .image-with-text__content {
   text-align: right;
 }
 
 /* Multicolumn */
-[lang="ar"] [dir="rtl"] .multicolumn-card__info {
+[lang="ar"][dir="rtl"] .multicolumn-card__info {
   text-align: right;
 }
 
 /* Rich Text */
-[lang="ar"] [dir="rtl"] .rich-text__blocks {
+[lang="ar"][dir="rtl"] .rich-text__blocks {
   text-align: right;
 }
 
 /* Featured Collection */
-[lang="ar"] [dir="rtl"] .collection__title {
+[lang="ar"][dir="rtl"] .collection__title {
   text-align: right;
 }
 
 /* Newsletter */
-[lang="ar"] [dir="rtl"] .newsletter-form__field-wrapper {
+[lang="ar"][dir="rtl"] .newsletter-form__field-wrapper {
   direction: rtl;
 }
 
-[lang="ar"] [dir="rtl"] .newsletter-form__button {
+[lang="ar"][dir="rtl"] .newsletter-form__button {
   right: auto;
   left: 0;
 }
 
 /* Announcement Bar */
-[lang="ar"] [dir="rtl"] .announcement-bar {
+[lang="ar"][dir="rtl"] .announcement-bar {
   text-align: center;
 }
 
 /* Localization Selector */
-[lang="ar"] [dir="rtl"] .localization-form__select {
+[lang="ar"][dir="rtl"] .localization-form__select {
   padding-right: 3rem;
   padding-left: 1rem;
   text-align: right;
 }
 
-[lang="ar"] [dir="rtl"] .disclosure__button {
+[lang="ar"][dir="rtl"] .disclosure__button {
   text-align: right;
 }
 
 /* Tables */
-[lang="ar"] [dir="rtl"] table {
+[lang="ar"][dir="rtl"] table {
   direction: rtl;
 }
 
-[lang="ar"] [dir="rtl"] th,
-[lang="ar"] [dir="rtl"] td {
+[lang="ar"][dir="rtl"] th,
+[lang="ar"][dir="rtl"] td {
   text-align: right;
 }
 
 /* Forms */
-[lang="ar"] [dir="rtl"] .field__input,
-[lang="ar"] [dir="rtl"] .select__select,
-[lang="ar"] [dir="rtl"] textarea {
+[lang="ar"][dir="rtl"] .field__input,
+[lang="ar"][dir="rtl"] .select__select,
+[lang="ar"][dir="rtl"] textarea {
   text-align: right;
 }
 
-[lang="ar"] [dir="rtl"] .field__label {
+[lang="ar"][dir="rtl"] .field__label {
   right: 0;
   left: auto;
 }
 
 /* Checkboxes and Radio Buttons */
-[lang="ar"] [dir="rtl"] input[type="checkbox"],
-[lang="ar"] [dir="rtl"] input[type="radio"] {
+[lang="ar"][dir="rtl"] input[type="checkbox"],
+[lang="ar"][dir="rtl"] input[type="radio"] {
   margin-right: 0;
   margin-left: 1rem;
 }
 
 /* Loading Spinner */
-[lang="ar"] [dir="rtl"] .loading-overlay__spinner {
+[lang="ar"][dir="rtl"] .loading-overlay__spinner {
   right: 50%;
   left: auto;
   transform: translateX(50%);
 }
 
 /* Details/Disclosure */
-[lang="ar"] [dir="rtl"] .disclosure__button {
+[lang="ar"][dir="rtl"] .disclosure__button {
   padding-right: 0;
   padding-left: 0;
 }
 
-[lang="ar"] [dir="rtl"] details[open] > .disclosure__button .icon-caret {
+[lang="ar"][dir="rtl"] details[open] > .disclosure__button .icon-caret {
   transform: rotate(0deg);
 }
 
 /* Media Queries for Responsive RTL */
 @media screen and (min-width: 750px) {
-  [lang="ar"] [dir="rtl"] .header__icon--cart {
+  [lang="ar"][dir="rtl"] .header__icon--cart {
     margin-left: 0;
     margin-right: 2rem;
   }
 
-  [lang="ar"] [dir="rtl"] .cart-drawer {
+  [lang="ar"][dir="rtl"] .cart-drawer {
     max-width: 40rem;
   }
 
-  [lang="ar"] [dir="rtl"] .product__info-container {
+  [lang="ar"][dir="rtl"] .product__info-container {
     padding-right: 5rem;
     padding-left: 0;
   }
 
-  [lang="ar"] [dir="rtl"] .product__media-list {
+  [lang="ar"][dir="rtl"] .product__media-list {
     padding-left: 2rem;
     padding-right: 0;
   }
 
-  [lang="ar"] [dir="rtl"] .footer__blocks-wrapper {
+  [lang="ar"][dir="rtl"] .footer__blocks-wrapper {
     text-align: right;
   }
 }
 
 @media screen and (min-width: 990px) {
-  [lang="ar"] [dir="rtl"] .header__inline-menu {
+  [lang="ar"][dir="rtl"] .header__inline-menu {
     margin-left: 0;
     margin-right: 0;
   }
 
-  [lang="ar"] [dir="rtl"] .mega-menu__content {
+  [lang="ar"][dir="rtl"] .mega-menu__content {
     padding-right: 5rem;
     padding-left: 5rem;
   }
 }
 
 /* Utility Classes for RTL */
-[lang="ar"] [dir="rtl"] .rtl-reverse {
+[lang="ar"][dir="rtl"] .rtl-reverse {
   transform: scaleX(-1);
 }
 
 /* Ensure images and media don't flip */
-[lang="ar"] [dir="rtl"] img,
-[lang="ar"] [dir="rtl"] video,
-[lang="ar"] [dir="rtl"] .media {
+[lang="ar"][dir="rtl"] img,
+[lang="ar"][dir="rtl"] video,
+[lang="ar"][dir="rtl"] .media {
   direction: ltr;
 }
 
 /* Social Icons - Keep LTR */
-[lang="ar"] [dir="rtl"] .list-social__link {
+[lang="ar"][dir="rtl"] .list-social__link {
   direction: ltr;
 }
 
 /* Fix for specific Dawn theme components */
-[lang="ar"] [dir="rtl"] .scrollbar-hidden::-webkit-scrollbar {
+[lang="ar"][dir="rtl"] .scrollbar-hidden::-webkit-scrollbar {
   display: none;
 }
 
 /* Custom adjustments for better Arabic typography */
-[lang="ar"] [dir="rtl"] body {
+[lang="ar"][dir="rtl"] body {
   font-feature-settings: normal;
   font-variant-ligatures: common-ligatures;
 }
 
 /* Fix for product grid */
-[lang="ar"] [dir="rtl"] .product-grid {
+[lang="ar"][dir="rtl"] .product-grid {
   direction: rtl;
 }
 
-[lang="ar"] [dir="rtl"] .grid__item {
+[lang="ar"][dir="rtl"] .grid__item {
   direction: rtl;
 }
 
 /* Collapsible Content */
-[lang="ar"] [dir="rtl"] .collapsible-content__heading {
+[lang="ar"][dir="rtl"] .collapsible-content__heading {
   text-align: right;
 }
 
 /* Quick Add Button */
-[lang="ar"] [dir="rtl"] .quick-add__submit {
+[lang="ar"][dir="rtl"] .quick-add__submit {
   margin-left: 0;
   margin-right: auto;
 }
 
 /* Share Button */
-[lang="ar"] [dir="rtl"] .share-button__button {
+[lang="ar"][dir="rtl"] .share-button__button {
   margin-right: 0;
   margin-left: 1rem;
 }
 
 /* Video Banner */
-[lang="ar"] [dir="rtl"] .banner__content {
+[lang="ar"][dir="rtl"] .banner__content {
   text-align: right;
 }
 
 /* Accordion */
-[lang="ar"] [dir="rtl"] .accordion__title {
+[lang="ar"][dir="rtl"] .accordion__title {
   text-align: right;
   padding-right: 0;
   padding-left: 3rem;
 }
 
-[lang="ar"] [dir="rtl"] .accordion summary {
+[lang="ar"][dir="rtl"] .accordion summary {
   padding-right: 0;
   padding-left: 0;
 }
 
 /* Gift Card */
-[lang="ar"] [dir="rtl"] .gift-card__number {
+[lang="ar"][dir="rtl"] .gift-card__number {
   direction: ltr;
   text-align: center;
 }
 
 /* Pickup Availability */
-[lang="ar"] [dir="rtl"] .pickup-availability-info {
+[lang="ar"][dir="rtl"] .pickup-availability-info {
   text-align: right;
 }
