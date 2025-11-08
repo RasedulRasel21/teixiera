@@ -147,31 +147,6 @@
         "custom_class": ""
       }
     },
-    "featured_collection_v2_YmGXNV": {
-      "type": "featured-collection-v2",
-      "name": "Featured Collection V2",
-      "settings": {
-        "color_scheme": "",
-        "heading": "قطع - ازرقطقم المواليد",
-        "heading_size": "h1",
-        "subheading": "",
-        "description": "",
-        "show_collection_description": false,
-        "collection": "frontpage",
-        "limit": 8,
-        "columns": 4,
-        "column_gap": 20,
-        "row_gap": 40,
-        "pcard_image_ratio": "3/4",
-        "columns_mobile": "2",
-        "show_all_button_on_top": false,
-        "button_label": "",
-        "button_style": "btn--primary",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "custom_class": ""
-      }
-    },
     "rich_text_kfALeF": {
       "type": "rich-text",
       "blocks": {
@@ -322,7 +297,7 @@
       "name": "Highlight Text with Image V2",
       "settings": {
         "color_scheme": "",
-        "text": "ازرقطقم المواليد [img1] ازرقطقم المواليد [img2] ازرقطقم المواليد [img3]",
+        "text": "ازرقطقم المواليد, [img1] ازرقطقم المواليد, [img2] ازرقطقم المواليد, [img3]",
         "heading_size": "hd1",
         "alignment": "center",
         "padding_top": 50,
@@ -414,6 +389,31 @@
         "columns_desktop": 4,
         "column_gap": 20,
         "columns_mobile": "1",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "custom_class": ""
+      }
+    },
+    "featured_collection_v2_YmGXNV": {
+      "type": "featured-collection-v2",
+      "name": "Featured Collection V2",
+      "settings": {
+        "color_scheme": "",
+        "heading": "قطع - ازرقطقم المواليد",
+        "heading_size": "h1",
+        "subheading": "",
+        "description": "",
+        "show_collection_description": false,
+        "collection": "frontpage",
+        "limit": 8,
+        "columns": 4,
+        "column_gap": 20,
+        "row_gap": 40,
+        "pcard_image_ratio": "3/4",
+        "columns_mobile": "2",
+        "show_all_button_on_top": false,
+        "button_label": "",
+        "button_style": "btn--primary",
         "padding_top": 50,
         "padding_bottom": 50,
         "custom_class": ""
@@ -563,6 +563,50 @@
         "padding_bottom": 56,
         "custom_class": ""
       }
+    },
+    "highlighted_text_ayUdAJ": {
+      "type": "highlighted-text",
+      "blocks": {
+        "image_mAAntw": {
+          "type": "image",
+          "settings": {
+            "image_link": "",
+            "image_width": 220,
+            "image_width_mobile": 110
+          }
+        },
+        "image_tCzka3": {
+          "type": "image",
+          "settings": {
+            "image_link": "",
+            "image_width": 220,
+            "image_width_mobile": 110
+          }
+        },
+        "image_FhMFxq": {
+          "type": "image",
+          "settings": {
+            "image_link": "",
+            "image_width": 220,
+            "image_width_mobile": 110
+          }
+        }
+      },
+      "block_order": [
+        "image_mAAntw",
+        "image_tCzka3",
+        "image_FhMFxq"
+      ],
+      "name": "Highlight Text with Image V2",
+      "settings": {
+        "color_scheme": "",
+        "text": "Highlight products, [img1] a collection, or [img2] images alongside a brand message [img3]",
+        "heading_size": "hd1",
+        "alignment": "center",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "custom_class": ""
+      }
     }
   },
   "order": [
@@ -576,6 +620,7 @@
     "featured_collection_v2_YmGXNV",
     "collage_tab_eGjRnh",
     "scrolling_promotion_dbMHjm",
-    "newsletter_v2_pmrAn6"
+    "newsletter_v2_pmrAn6",
+    "highlighted_text_ayUdAJ"
   ]
 }
